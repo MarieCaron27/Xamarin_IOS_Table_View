@@ -1,10 +1,12 @@
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/runtimeconfig.bin
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/vues_tables_Ios.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Collections.Concurrent.dll
+/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Collections.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.ComponentModel.TypeConverter.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Diagnostics.DiagnosticSource.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Drawing.Primitives.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Drawing.dll
+/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Linq.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.ObjectModel.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Runtime.InteropServices.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Runtime.dll
@@ -26,10 +28,12 @@
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/aot-instances.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/vues_tables_Ios.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Collections.Concurrent.aotdata.arm64
+/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Collections.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.ComponentModel.TypeConverter.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Diagnostics.DiagnosticSource.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Drawing.Primitives.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Drawing.aotdata.arm64
+/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Linq.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.ObjectModel.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Runtime.InteropServices.aotdata.arm64
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/bin/Debug/net10.0-ios/iossimulator-arm64/publish/../vues_tables_Ios.app/System.Runtime.aotdata.arm64

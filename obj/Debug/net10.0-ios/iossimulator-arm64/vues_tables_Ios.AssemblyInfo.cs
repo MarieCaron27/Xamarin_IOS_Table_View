@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vues_tables_Ios")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+078b03a9ee136c13bd5221b2e9c29de475b5930a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70ab4dcbcf2f91122ed2cbc64cb43a6d03b948ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("vues_tables_Ios")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vues_tables_Ios")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

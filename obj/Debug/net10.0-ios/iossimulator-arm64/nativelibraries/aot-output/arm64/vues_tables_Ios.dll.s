@@ -2608,7 +2608,16 @@ bl _p_33
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf9400fa0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #536]
+bl _p_34
 .word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
 .word 0x91006301
 .word 0xd5033bbf
 .word 0xf94027a0
@@ -2624,7 +2633,7 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 7 13 0
 .word 0xf94017b1
-.word 0xf943c631
+.word 0xf9444631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -2645,11 +2654,11 @@ ldr x2, [x16, #16]
 .word 0x3900003e
 .loc 7 14 0
 .word 0xf94017b1
-.word 0xf944f631
+.word 0xf9457631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9453631
+.word 0xf945b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb8
@@ -2663,7 +2672,7 @@ Lme_1b:
 	.no_dead_strip vues_tables_Ios_TableSource_RowsInSection_UIKit_UITableView_intptr
 vues_tables_Ios_TableSource_RowsInSection_UIKit_UITableView_intptr:
 .loc 7 19 0 prologue_end
-.word 0xa9bb7bfd
+.word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb9
 .word 0xf9000fa0
@@ -2672,11 +2681,1044 @@ vues_tables_Ios_TableSource_RowsInSection_UIKit_UITableView_intptr:
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #544]
 .word 0xf9001bb0
 .word 0xf9400211
 .word 0xf9001fb1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
 .word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 20 0
+.word 0xf9401bb1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0xf9400c00
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf942c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x93407c00
+.word 0xaa0003f9
+.loc 7 21 0
+.word 0xf9401bb1
+.word 0xf9433631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0xf9401bb1
+.word 0xf9439631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb9
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_1c:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath:
+.loc 7 26 0 prologue_end
+.word 0xa9b37bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xf90023ba
+.word 0xf90027a0
+.word 0xf9002ba1
+.word 0xf9002fa2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #560]
+.word 0xf90033b0
+.word 0xf9400211
+.word 0xf90037b1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf9003fbf
+.word 0xf90043bf
+.word 0xd2a00015
+.word 0xf90047bf
+.word 0xf94033b1
+.word 0xf9419631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 27 0
+.word 0xf94033b1
+.word 0xf9425631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #368]
+.word 0xf9400001
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_36
+.word 0xaa0003f3
+.word 0xf94033b1
+.word 0xf9432631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303fa
+.word 0xeb1f027f
+.word 0x54000160
+.word 0xf9400260
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9401400
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #568]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd280001a
+.word 0xaa1a03e0
+.word 0xf9003fba
+.loc 7 31 0
+.word 0xf94033b1
+.word 0xf9445631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xd2800001
+.word 0xeb1f001f
+.word 0x9a9f17e0
+.word 0x53001c00
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0x340002e0
+.loc 7 32 0
+.word 0xf94033b1
+.word 0xf9451631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #368]
+.word 0xf9400000
+.word 0xf90057a0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #576]
+bl _p_4
+.word 0xf94057a1
+.word 0xf90053a0
+bl _p_37
+.word 0xf94033b1
+.word 0xf9461631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf9003fa0
+.loc 7 34 0
+.word 0xf94037b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf946b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a0
+.word 0xf9400c00
+.word 0xf9005fa0
+.word 0xf9402fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_38
+.word 0x93407c00
+.word 0xf90063a0
+.word 0xf94033b1
+.word 0xf9478631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405fa0
+.word 0xf94063a1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #584]
+.word 0x3940001e
+bl _p_39
+.word 0xf9005ba0
+.word 0xf94033b1
+.word 0xf9484631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9405ba0
+.word 0xf90043a0
+.loc 7 36 0
+.word 0xf94033b1
+.word 0xf948a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf90057a0
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_40
+.word 0xf90053a0
+.word 0xf94033b1
+.word 0xf9495631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf94057a1
+.word 0xaa0003f8
+.word 0xaa0003e2
+.word 0xaa0003e2
+.word 0xaa0103f7
+.word 0xaa0003f6
+.word 0xb50000e0
+.word 0xaa1703e0
+.word 0xaa1603e0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #592]
+.word 0xaa0003f6
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_41
+.word 0xf90053a0
+.word 0xf94033b1
+.word 0xf94ae631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf9004ba0
+.word 0xf9404ba1
+.word 0xf9404ba0
+.word 0xaa0103f4
+.word 0xb5000100
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0xaa1403e0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #592]
+.word 0xaa0003f4
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0xaa1403e0
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_42
+.word 0xf90057a0
+.word 0xf94033b1
+.word 0xf94c7631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+bl _p_43
+.word 0x53001c00
+.word 0xf90053a0
+.word 0xf94033b1
+.word 0xf94cf631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0x350002e0
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0xaa1403e0
+.word 0xf94043a1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_42
+.word 0xf90057a0
+.word 0xf94033b1
+.word 0xf94dd631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+bl _p_44
+.word 0xf90053a0
+.word 0xf94033b1
+.word 0xf94e4631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf9004fa0
+.word 0x14000006
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0xaa1403e0
+.word 0xd2800000
+.word 0xf9004fbf
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0xaa1403e0
+.word 0xf9404fa3
+.word 0xaa1703e0
+.word 0xaa1603e1
+.word 0xaa1403e2
+.word 0x394002fe
+bl _p_45
+.word 0xf94033b1
+.word 0xf94f9631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 43 0
+.word 0xf94033b1
+.word 0xf94fd631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf90047a0
+.loc 7 44 0
+.word 0xf94033b1
+.word 0xf9503631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
+.word 0xf94033b1
+.word 0xf9508631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xf94023ba
+.word 0x910003bf
+.word 0xa8cd7bfd
+.word 0xd65f03c0
+
+Lme_1d:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath:
+.loc 7 49 0 prologue_end
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0xa90157b4
+.word 0xa9025fb6
+.word 0xa90367b8
+.word 0xf90023ba
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #600]
+.word 0xf90027b0
+.word 0xf9400211
+.word 0xf9002bb1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2a00015
+.word 0xf94027b1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 51 0
+.word 0xf94027b1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0xf9400321
+.word 0xf944e830
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x340003e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_38
+.word 0x93407c00
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf943b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9400f00
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf90037a0
+.word 0xf94027b1
+.word 0xf9448631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xf94037a1
+.word 0x51000421
+.word 0x6b01001f
+.word 0x9a9f17e0
+.word 0xaa0003f4
+.word 0x14000003
+.word 0xd2a00000
+.word 0xd2a00014
+.word 0xaa1403e0
+.word 0x53001e80
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0x34000360
+.loc 7 53 0
+.word 0xf94027b1
+.word 0xf945a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 54 0
+.word 0xf94027b1
+.word 0xf945e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd2800022
+.word 0xf9400323
+.word 0xf9450c70
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf946b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 55 0
+.word 0xf94027b1
+.word 0xf946f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000081
+.loc 7 58 0
+.word 0xf94027b1
+.word 0xf9474631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9400f00
+.word 0xf90053a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_38
+.word 0x93407c00
+.word 0xf90057a0
+.word 0xf94027b1
+.word 0xf9481631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xf94057a1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #584]
+.word 0x3940001e
+bl _p_39
+.word 0xf9004fa0
+.word 0xf94027b1
+.word 0xf948d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf9004ba0
+.word 0xaa0003f7
+.loc 7 60 0
+.word 0xf94027b1
+.word 0xf9494631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #608]
+.word 0xf90043a0
+.word 0xaa0103e0
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_40
+.word 0xf90047a0
+.word 0xf94027b1
+.word 0xf94a2631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xf94047a1
+.word 0xd2800022
+.word 0xd2800022
+bl _p_46
+.word 0xf9003fa0
+.word 0xf94027b1
+.word 0xf94ac631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf9003ba0
+.word 0xaa0003f6
+.loc 7 65 0
+.word 0xf94027b1
+.word 0xf94b3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xf90037a0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #616]
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd2800001
+.word 0xd2800002
+bl _p_47
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf94c2631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf943a850
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf94cc631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 71 0
+.word 0xf94027b1
+.word 0xf94d0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9401304
+.word 0xaa1603e1
+.word 0xd2800020
+.word 0xd2800000
+.word 0xaa0403e0
+.word 0xd2800022
+.word 0xd2800003
+.word 0xf9400084
+.word 0xf9438090
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf94df631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 76 0
+.word 0xf94027b1
+.word 0xf94e3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd2800022
+.word 0xf9400323
+.word 0xf9450c70
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf94f0631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 79 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf94f8631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf94fc631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94157b4
+.word 0xa9425fb6
+.word 0xa94367b8
+.word 0xf94023ba
+.word 0x910003bf
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+
+Lme_1e:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_CommitEditingStyle_UIKit_UITableView_UIKit_UITableViewCellEditingStyle_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_CommitEditingStyle_UIKit_UITableView_UIKit_UITableViewCellEditingStyle_Foundation_NSIndexPath:
+.loc 7 85 0 prologue_end
+.word 0xa9b07bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xf90023ba
+.word 0xaa0003f7
+.word 0xf90027a1
+.word 0xf9002ba2
+.word 0xaa0303fa
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #624]
+.word 0xf9002fb0
+.word 0xf9400211
+.word 0xf90033b1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2a00014
+.word 0xd2800013
+.word 0xd2800018
+.word 0xf9402fb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9423631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 86 0
+.word 0xf9402fb1
+.word 0xf9427631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xf9003ba0
+.word 0xf9403ba1
+.word 0xf9403ba0
+.word 0xd2800042
+.word 0xf9003fa1
+.word 0xd280005e
+.word 0xeb1e001f
+.word 0x54000069
+.word 0xf9403fa0
+.word 0x14000108
+.word 0xf9403fa0
+.word 0xaa0003e0
+.word 0xf90043a0
+.word 0xd280007e
+.word 0x6b1e001f
+.word 0x54002042
+.word 0xf94043a0
+.word 0xd37df000
+.word 0x2a0003e1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #632]
+.word 0x8b010000
+.word 0xf9400000
+.word 0xd61f0000
+.loc 7 89 0
+.word 0xf9402fb1
+.word 0xf9449631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 90 0
+.word 0xf9402fb1
+.word 0xf944d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9400ee0
+.word 0xf90063a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_38
+.word 0x93407c00
+.word 0xf90067a0
+.word 0xf9402fb1
+.word 0xf945a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xf94067a1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #640]
+.word 0x3940001e
+bl _p_48
+.word 0xf9402fb1
+.word 0xf9465631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 92 0
+.word 0xf9402fb1
+.word 0xf9469631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a0
+.word 0xf9005fa0
+.word 0xd2800020
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #648]
+.word 0xd2800021
+bl _p_14
+.word 0xf90047a0
+.word 0xf94047a0
+.word 0xf9005ba0
+.word 0xf94047a3
+.word 0xd2a00000
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xaa1a03e2
+.word 0xf9400063
+.word 0xf9404470
+.word 0xd63f0200
+.word 0xf9405ba1
+.word 0xf9405fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf9451070
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xf948a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 96 0
+.word 0xf9402fb1
+.word 0xf948e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x140000af
+.loc 7 100 0
+.word 0xf9402fb1
+.word 0xf9493631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 106 0
+.word 0xf9402fb1
+.word 0xf9497631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_38
+.word 0x93407c00
+.word 0xf9007fa0
+.word 0xf9402fb1
+.word 0xf94a1631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa0
+.word 0xaa0003f4
+.loc 7 108 0
+.word 0xf9402fb1
+.word 0xf94a7631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #656]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_49
+.word 0xf9007ba0
+bl _p_50
+.word 0xf9402fb1
+.word 0xf94b3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba0
+.word 0xf9004ba0
+.word 0xf9404ba0
+.word 0xf90077a0
+.word 0xf9404ba2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #664]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_51
+.word 0xf9402fb1
+.word 0xf94c2631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a0
+.word 0xf9004fa0
+.word 0xf9404fa0
+.word 0xf90073a0
+.word 0xf9404fa2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #672]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_52
+.word 0xf9402fb1
+.word 0xf94d1631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a0
+.word 0xf90053a0
+.word 0xf94053a0
+.word 0xf9006fa0
+.word 0xf94053a2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #680]
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_53
+.word 0xf9402fb1
+.word 0xf94e0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406fa0
+.word 0xaa0003f3
+.loc 7 115 0
+.word 0xf9402fb1
+.word 0xf94e6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9400ee0
+.word 0xaa1403e1
+.word 0xaa1303e2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #688]
+.word 0x3940001e
+.word 0xaa1303e2
+bl _p_54
+.word 0xf9402fb1
+.word 0xf94f4631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 119 0
+.word 0xf9402fb1
+.word 0xf94f8631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0x93407c00
+.word 0xf90067a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_55
+.word 0x93407c00
+.word 0xf9006ba0
+.word 0xf9402fb1
+.word 0xf9505631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94067a0
+.word 0xf9406ba1
+.word 0x93407c21
+bl _p_56
+.word 0xf90063a0
+.word 0xf9402fb1
+.word 0xf950e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a0
+.word 0xaa0003f8
+.loc 7 124 0
+.word 0xf9402fb1
+.word 0xf9514631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a0
+.word 0xf9005fa0
+.word 0xd2800020
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #648]
+.word 0xd2800021
+bl _p_14
+.word 0xf90057a0
+.word 0xf94057a0
+.word 0xf9005ba0
+.word 0xf94057a3
+.word 0xd2a00000
+.word 0xaa1803e2
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800001
+.word 0xf9400063
+.word 0xf9404470
+.word 0xd63f0200
+.word 0xf9405ba1
+.word 0xf9405fa3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf944f470
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xf9534631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 128 0
+.word 0xf9402fb1
+.word 0xf9538631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000005
+.loc 7 132 0
+.word 0xf9402fb1
+.word 0xf953d631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 134 0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9545631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9549631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xf94023ba
+.word 0x910003bf
+.word 0xa8d07bfd
+.word 0xd65f03c0
+
+Lme_1f:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_CanEditRow_UIKit_UITableView_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_CanEditRow_UIKit_UITableView_Foundation_NSIndexPath:
+.loc 7 139 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #696]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+.word 0xd2a0001a
 .word 0xf9401bb1
 .word 0xf940d631
 .word 0xb4000051
@@ -2689,55 +3731,51 @@ ldr x16, [x16, #536]
 .word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 20 0
+.loc 7 140 0
 .word 0xf9401bb1
 .word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9400fa0
-.word 0xf9400c01
-.word 0xb9801820
-.word 0xaa0003e1
-.word 0x93407c00
-.word 0xaa0003f9
-.loc 7 21 0
+.word 0xd2800020
+.word 0x53001c00
+.word 0xaa0003fa
+.loc 7 141 0
 .word 0xf9401bb1
-.word 0xf9423631
+.word 0xf9420631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
 .word 0xf9401bb1
-.word 0xf9429631
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9400bb9
+.word 0xf9400bba
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_20:
 .text
 	.align 4
-	.no_dead_strip vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
-vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath:
-.loc 7 24 0 prologue_end
-.word 0xa9b47bfd
+	.no_dead_strip vues_tables_Ios_TableSource_TitleForDeleteConfirmation_UIKit_UITableView_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_TitleForDeleteConfirmation_UIKit_UITableView_Foundation_NSIndexPath:
+.loc 7 146 0 prologue_end
+.word 0xa9b77bfd
 .word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xf90023ba
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xf9001bba
 .word 0xaa0003f8
-.word 0xf90027a1
+.word 0xf9001fa1
 .word 0xaa0203fa
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #544]
-.word 0xf9002bb0
+ldr x16, [x16, #704]
+.word 0xf90023b0
 .word 0xf9400211
-.word 0xf9002fb1
+.word 0xf90027b1
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
@@ -2745,264 +3783,587 @@ ldr x0, [x16, #56]
 .word 0xf9400011
 .word 0xb4000051
 bl _p_1
-.word 0xd2800017
-.word 0xd2a00016
-.word 0xd2800015
-.word 0xf9402bb1
-.word 0xf9418631
+.word 0xd2a00017
+.word 0xd2800016
+.word 0xf94023b1
+.word 0xf9416631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fb1
+.word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf9420631
+.word 0xf94023b1
+.word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 25 0
-.word 0xf9402bb1
-.word 0xf9424631
+.loc 7 151 0
+.word 0xf94023b1
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a2
+.word 0xf9401fa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf944e830
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf942d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x340003e0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_38
+.word 0x93407c00
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9439631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9400f00
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #368]
-.word 0xf9400001
-.word 0xaa0203e0
-.word 0x3940005e
-bl _p_34
-.word 0xaa0003f4
-.word 0xf9402bb1
-.word 0xf9431631
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9446631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1403f3
-.word 0xeb1f029f
-.word 0x54000160
-.word 0xf9400280
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9401400
+.word 0xf94033a0
+.word 0xf94037a1
+.word 0x51000421
+.word 0x6b01001f
+.word 0x9a9f17e0
+.word 0xaa0003f5
+.word 0x14000003
+.word 0xd2a00000
+.word 0xd2a00015
+.word 0xaa1503e0
+.word 0x53001ea0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0x340001c0
+.loc 7 153 0
+.word 0xf94023b1
+.word 0xf9458631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 154 0
+.word 0xf94023b1
+.word 0xf945c631
+.word 0xb4000051
+.word 0xd63f0220
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #552]
-.word 0xeb01001f
-.word 0x54000040
-.word 0xd2800013
-.word 0xaa1303e0
-.word 0xaa1303f7
-.loc 7 26 0
-.word 0xf9402bb1
+ldr x0, [x16, #592]
+.word 0xaa0003f6
+.word 0x14000038
+.loc 7 157 0
+.word 0xf94023b1
+.word 0xf9465631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #712]
+.word 0xf90037a0
+.word 0xaa1803e0
+.word 0xf9400f00
+.word 0xf90043a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_38
+.word 0x93407c00
+.word 0xf90047a0
+.word 0xf94023b1
+.word 0xf9476631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xf94047a1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #584]
+.word 0x3940001e
+bl _p_39
+.word 0xf9003fa0
+.word 0xf94023b1
+.word 0xf9482631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_41
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf948b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9403ba1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #720]
+bl _p_57
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9496631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f6
+.loc 7 160 0
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf94a0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1603e0
+.word 0xf94023b1
+.word 0xf94a6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_21:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_EditingStyleForRow_UIKit_UITableView_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_EditingStyleForRow_UIKit_UITableView_Foundation_NSIndexPath:
+.loc 7 165 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xf90013b7
+.word 0xf90017a0
+.word 0xf9001ba1
+.word 0xf9001fa2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #728]
+.word 0xf90023b0
+.word 0xf9400211
+.word 0xf90027b1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2a00017
+.word 0xd2a00016
+.word 0xd2800015
+.word 0xf94023b1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 166 0
+.word 0xf94023b1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf944e830
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf942d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0x53001c00
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0x34000720
+.loc 7 167 0
+.word 0xf94023b1
+.word 0xf9436631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 169 0
+.word 0xf94023b1
+.word 0xf943a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_38
+.word 0x93407c00
+.word 0xf90033a0
+.word 0xf94023b1
 .word 0xf9444631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1303e0
-.word 0xd2800000
-.word 0xeb1f027f
+.word 0xf94017a0
+.word 0xf9400c00
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9451631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xf94037a1
+.word 0x51000421
+.word 0x6b01001f
 .word 0x9a9f17e0
 .word 0x53001c00
 .word 0xaa0003f6
 .word 0xaa1603e0
-.word 0x340002e0
-.loc 7 27 0
-.word 0xf9402bb1
-.word 0xf9450631
+.word 0x34000160
+.loc 7 170 0
+.word 0xf94023b1
+.word 0xf945e631
 .word 0xb4000051
 .word 0xd63f0220
-
-adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
-add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #368]
-.word 0xf9400000
-.word 0xf9003fa0
-
-adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
-add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #560]
-bl _p_4
-.word 0xf9403fa1
-.word 0xf9003ba0
-bl _p_35
-.word 0xf9402bb1
-.word 0xf9460631
+.loc 7 171 0
+.word 0xf94023b1
+.word 0xf9462631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba0
-.word 0xaa0003f7
-.loc 7 28 0
-.word 0xf9402fb1
+.word 0xd2800055
+.word 0x1400000c
+.loc 7 175 0
+.word 0xf94023b1
+.word 0xf9468631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800035
+.word 0x14000006
+.loc 7 179 0
+.word 0xf94023b1
+.word 0xf946e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800035
+.loc 7 180 0
+.word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402bb1
-.word 0xf946a631
+.word 0xf94023b1
+.word 0xf9477631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1803e0
-.word 0xf9400f00
-.word 0xf9005ba0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x3940035e
-bl _p_36
-.word 0x93407c00
-.word 0xf9005fa0
-.word 0xf9402bb1
-.word 0xf9478631
+.word 0xaa1503e0
+.word 0xaa1503e0
+.word 0xf94023b1
+.word 0xf947d631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405ba0
-.word 0xf9405fa1
-.word 0x93407c21
-.word 0xb9801802
-.word 0xeb01005f
-.word 0x10000011
-.word 0x54000ea9
-.word 0xd37df021
-.word 0x8b010000
-.word 0x91008000
-.word 0xf9400001
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_37
-.word 0xf9003ba0
-.word 0xf9402bb1
-.word 0xf948b631
+.word 0xa9415bb5
+.word 0xf94013b7
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_22:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_CanMoveRow_UIKit_UITableView_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_CanMoveRow_UIKit_UITableView_Foundation_NSIndexPath:
+.loc 7 185 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bb8
+.word 0xf9000fa0
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #736]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2a00018
+.word 0xf9401bb1
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf9400f00
-.word 0xf90053a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x3940035e
-bl _p_36
-.word 0x93407c00
-.word 0xf90057a0
-.word 0xf9402bb1
-.word 0xf9498631
+.word 0xf9401fb1
+.word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94053a0
-.word 0xf94057a1
-.word 0x93407c21
-.word 0xb9801802
-.word 0xeb01005f
-.word 0x10000011
-.word 0x54000aa9
-.word 0xd37df021
-.word 0x8b010000
-.word 0x91008000
-.word 0xf9400001
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 189 0
+.word 0xf9401bb1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a1
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_38
-.word 0xf9003fa0
-.word 0xf9402bb1
-.word 0xf94ab631
+.word 0x93407c00
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0xf9400c00
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf9436631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9402fa1
+.word 0x51000421
+.word 0x6b01001f
+.word 0x9a9fa7e0
+.word 0x53001c00
+.word 0xaa0003f8
+.loc 7 190 0
+.word 0xf9401bb1
+.word 0xf9441631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf9400f00
-.word 0xf9004ba0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x3940035e
-bl _p_36
-.word 0x93407c00
-.word 0xf9004fa0
-.word 0xf9402bb1
-.word 0xf94b8631
+.word 0xaa1803e0
+.word 0xf9401bb1
+.word 0xf9447631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9404ba0
-.word 0xf9404fa1
-.word 0x93407c21
-.word 0xb9801802
-.word 0xeb01005f
-.word 0x10000011
-.word 0x540006a9
-.word 0xd37df021
-.word 0x8b010000
-.word 0x91008000
-.word 0xf9400001
-.word 0xaa0103e0
-.word 0x3940003e
-bl _p_39
-.word 0xf90047a0
-.word 0xf9402bb1
-.word 0xf94cb631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94047a0
-bl _p_40
-.word 0xf90043a0
-.word 0xf9402bb1
-.word 0xf94d2631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403ba1
-.word 0xf9403fa2
-.word 0xf94043a3
-.word 0xaa1703e0
-.word 0x394002fe
-bl _p_41
-.word 0xf9402bb1
-.word 0xf94dc631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 31 0
-.word 0xf9402bb1
-.word 0xf94e0631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1703f5
-.loc 7 32 0
-.word 0xf9402bb1
-.word 0xf94e6631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1703e0
-.word 0xf9402bb1
-.word 0xf94ec631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xf94023ba
+.word 0xf9400bb8
 .word 0x910003bf
-.word 0xa8cc7bfd
+.word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801480
-.word 0xaa1103e1
-bl _p_42
 
-Lme_1d:
+Lme_23:
 .text
 	.align 4
-	.no_dead_strip vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
-vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath:
-.loc 7 37 0 prologue_end
-.word 0xa9b77bfd
+	.no_dead_strip vues_tables_Ios_TableSource_CustomizeMoveTarget_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_CustomizeMoveTarget_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath:
+.loc 7 196 0 prologue_end
+.word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa9015fb6
 .word 0xf90013b8
 .word 0xf90017ba
-.word 0xaa0003f8
-.word 0xf9001ba1
-.word 0xaa0203fa
+.word 0xf9001ba0
+.word 0xf9001fa1
+.word 0xf90023a2
+.word 0xaa0303fa
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #744]
+.word 0xf90027b0
+.word 0xf9400211
+.word 0xf9002bb1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2a00018
+.word 0xd2a00017
+.word 0xd2800016
+.word 0xf94027b1
+.word 0xf9418631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 197 0
+.word 0xf94027b1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf9400c00
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf90037a0
+.word 0xf94027b1
+.word 0xf9431631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0x51000800
+.word 0xaa0003f8
+.loc 7 203 0
+.word 0xf94027b1
+.word 0xf9438631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_38
+.word 0x93407c00
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9442631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa1803e1
+.word 0x6b01001f
+.word 0x9a9fd7e0
+.word 0x53001c00
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0x34000440
+.loc 7 204 0
+.word 0xf94027b1
+.word 0xf944e631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 205 0
+.word 0xf94027b1
+.word 0xf9452631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xf90037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x3940035e
+bl _p_55
+.word 0x93407c00
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf945f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf9403ba1
+.word 0x93407c21
+bl _p_56
+.word 0xf90033a0
+.word 0xf94027b1
+.word 0xf9468631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f6
+.word 0x14000007
+.loc 7 210 0
+.word 0xf94027b1
+.word 0xf946f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03f6
+.loc 7 211 0
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9479631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1603e0
+.word 0xf94027b1
+.word 0xf947f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xf94013b8
+.word 0xf94017ba
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_24:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_MoveRow_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+vues_tables_Ios_TableSource_MoveRow_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath:
+.loc 7 217 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90163b7
+.word 0xf90013b9
+.word 0xaa0003f8
+.word 0xf90017a1
+.word 0xaa0203f9
+.word 0xf9001ba3
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #752]
 .word 0xf9001fb0
 .word 0xf9400211
 .word 0xf90023b1
@@ -3014,9 +4375,8 @@ ldr x0, [x16, #56]
 .word 0xb4000051
 bl _p_1
 .word 0xd2800017
-.word 0xd2800016
 .word 0xf9401fb1
-.word 0xf9416631
+.word 0xf9415631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
@@ -3024,166 +4384,522 @@ bl _p_1
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf941e631
+.word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 38 0
+.loc 7 218 0
 .word 0xf9401fb1
-.word 0xf9422631
+.word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf9400f00
-.word 0xf90043a0
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0x3940035e
-bl _p_36
+.word 0xf9003fa0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_38
 .word 0x93407c00
-.word 0xf90047a0
+.word 0xf90043a0
 .word 0xf9401fb1
+.word 0xf942e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf94043a1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #584]
+.word 0x3940001e
+bl _p_39
+.word 0xf9003ba0
+.word 0xf9401fb1
+.word 0xf943a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f7
+.loc 7 220 0
+.word 0xf9401fb1
+.word 0xf9440631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9400f00
+.word 0xf90033a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x3940033e
+bl _p_38
+.word 0x93407c00
+.word 0xf90037a0
+.word 0xf9401fb1
+.word 0xf944d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xf94037a1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #640]
+.word 0x3940001e
+bl _p_48
+.word 0xf9401fb1
+.word 0xf9458631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 222 0
+.word 0xf9401fb1
+.word 0xf945c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9400f00
+.word 0xf9002ba0
+.word 0xf9401ba1
+.word 0xaa0103e0
+.word 0x3940003e
+bl _p_38
+.word 0x93407c00
+.word 0xf9002fa0
+.word 0xf9401fb1
+.word 0xf9469631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9402fa1
+.word 0xaa1703e2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #688]
+.word 0x3940001e
+bl _p_54
+.word 0xf9401fb1
+.word 0xf9475631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 225 0
+.word 0xf9401fb1
+.word 0xf9479631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf947d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94163b7
+.word 0xf94013b9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_25:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView
+vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView:
+.loc 7 229 0 prologue_end
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0xa90157b4
+.word 0xa9025fb6
+.word 0xa90367b8
+.word 0xaa0003f9
+.word 0xf90023a1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #760]
+.word 0xf90027b0
+.word 0xf9400211
+.word 0xf9002bb1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2800018
+.word 0xf94027b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf941c631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 234 0
+.word 0xf94027b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400f20
+.word 0xf90043a0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #656]
+.word 0xd2800501
+.word 0xd2800501
+bl _p_49
+.word 0xf90053a0
+bl _p_50
+.word 0xf94027b1
 .word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94053a0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xf9004fa0
+.word 0xaa1703e0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #768]
+.word 0xaa1703e0
+.word 0x394002fe
+bl _p_51
+.word 0xf94027b1
+.word 0xf943e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xf9004ba0
+.word 0xaa1603e0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #776]
+.word 0xaa1603e0
+.word 0x394002de
+bl _p_52
+.word 0xf94027b1
+.word 0xf944d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xf90047a0
+.word 0xaa1503e0
+.word 0xd2800000
+.word 0xaa1503e0
+.word 0xd2800001
+.word 0x394002be
+bl _p_53
+.word 0xf94027b1
+.word 0xf945b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xf94047a1
-.word 0x93407c21
-.word 0xb9801802
-.word 0xeb01005f
-.word 0x10000011
-.word 0x54000e69
-.word 0xd37df021
-.word 0x8b010000
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f7
-.loc 7 40 0
-.word 0xf9401fb1
-.word 0xf943f631
-.word 0xb4000051
-.word 0xd63f0220
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #576]
-.word 0xf9003ba0
-.word 0xaa1703e0
-.word 0xaa1703e0
-.word 0x394002fe
-bl _p_37
+ldr x15, [x16, #784]
+.word 0x3940001e
+bl _p_58
+.word 0xf94027b1
+.word 0xf9466631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 242 0
+.word 0xf94027b1
+.word 0xf946a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400f20
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
 .word 0xf9003fa0
-.word 0xf9401fb1
-.word 0xf944c631
+.word 0xf94027b1
+.word 0xf9477631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0x51000400
+.word 0x93407c00
+.word 0xd2a00001
+.word 0xd2800001
+.word 0xd2800001
+bl _p_56
+.word 0xf9003ba0
+.word 0xf94027b1
+.word 0xf9483631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
-.word 0xf9403fa1
-.word 0xd2800022
-.word 0xd2800022
-bl _p_43
-.word 0xf90037a0
-.word 0xf9401fb1
-.word 0xf9456631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94037a0
-.word 0xf90033a0
-.word 0xaa0003f6
-.loc 7 45 0
-.word 0xf9401fb1
-.word 0xf945d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94033a0
-.word 0xf9002fa0
-
-adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
-add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #584]
-.word 0xd2800001
-.word 0xd2800001
-.word 0xd2800001
-.word 0xd2800002
-bl _p_44
-.word 0xf9002ba0
-.word 0xf9401fb1
-.word 0xf946c631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba1
-.word 0xf9402fa2
-.word 0xaa0203e0
-.word 0xf9400042
-.word 0xf943a450
-.word 0xd63f0200
-.word 0xf9401fb1
-.word 0xf9476631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 51 0
-.word 0xf9401fb1
-.word 0xf947a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf9401304
-.word 0xaa1603e1
-.word 0xd2800020
-.word 0xd2800000
-.word 0xaa0403e0
-.word 0xd2800022
-.word 0xd2800003
-.word 0xf9400084
-.word 0xf9437c90
-.word 0xd63f0200
-.word 0xf9401fb1
+.word 0xaa0003f8
+.loc 7 247 0
+.word 0xf94027b1
 .word 0xf9489631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 56 0
-.word 0xf9401fb1
-.word 0xf948d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba3
-.word 0xaa1a03e0
+.word 0xf94023a0
+.word 0xf90037a0
 .word 0xd2800020
-.word 0xaa0303e0
-.word 0xaa1a03e1
-.word 0xd2800022
-.word 0xf9400063
-.word 0xf9450470
-.word 0xd63f0200
-.word 0xf9401fb1
-.word 0xf949a631
-.word 0xb4000051
-.word 0xd63f0220
-.loc 7 59 0
-.word 0xf9401fb1
-.word 0xf949e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf94a2631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415fb6
-.word 0xf94013b8
-.word 0xf94017ba
-.word 0x910003bf
-.word 0xa8c97bfd
-.word 0xd65f03c0
-.word 0xd2801480
-.word 0xaa1103e1
-bl _p_42
 
-Lme_1e:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #648]
+.word 0xd2800021
+bl _p_14
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xf90033a0
+.word 0xaa1403e0
+.word 0xd2a00000
+.word 0xaa1803e2
+.word 0xd2800000
+.word 0xaa1403e0
+.word 0xd2800001
+.word 0xf9400283
+.word 0xf9404470
+.word 0xd63f0200
+.word 0xf94033a1
+.word 0xf94037a3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf944f470
+.word 0xd63f0200
+.word 0xf94027b1
+.word 0xf94a9631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 250 0
+.word 0xf94027b1
+.word 0xf94ad631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf94b1631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94157b4
+.word 0xa9425fb6
+.word 0xa94367b8
+.word 0x910003bf
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView
+vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView:
+.loc 7 254 0 prologue_end
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xf9001bb9
+.word 0xaa0003f9
+.word 0xf9001fa1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #792]
+.word 0xf90023b0
+.word 0xf9400211
+.word 0xf90027b1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2a00018
+.word 0xd2800017
+.word 0xd2a00016
+.word 0xf94023b1
+.word 0xf9416631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 255 0
+.word 0xf94023b1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400f20
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xd2a00001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x53001c00
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0x340000c0
+.loc 7 256 0
+.word 0xf94023b1
+.word 0xf943b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400005a
+.loc 7 258 0
+.word 0xf94023b1
+.word 0xf9440631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400f20
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #552]
+.word 0x3940001e
+bl _p_35
+.word 0x93407c00
+.word 0xf9003fa0
+.word 0xf94023b1
+.word 0xf944d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0x51000400
+.word 0xaa0003f8
+.loc 7 260 0
+.word 0xf94023b1
+.word 0xf9454631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xd2a00001
+.word 0xd2800001
+.word 0xd2800001
+bl _p_56
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf945f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003f7
+.loc 7 268 0
+.word 0xf94023b1
+.word 0xf9465631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9400f20
+.word 0xaa1803e1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x15, [x16, #640]
+.word 0x3940001e
+bl _p_48
+.word 0xf94023b1
+.word 0xf9471631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 273 0
+.word 0xf94023b1
+.word 0xf9475631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+.word 0xf90037a0
+.word 0xd2800020
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #648]
+.word 0xd2800021
+bl _p_14
+.word 0xaa0003f5
+.word 0xaa1503e0
+.word 0xf90033a0
+.word 0xaa1503e0
+.word 0xd2a00000
+.word 0xaa1703e2
+.word 0xd2800000
+.word 0xaa1503e0
+.word 0xd2800001
+.word 0xf94002a3
+.word 0xf9404470
+.word 0xd63f0200
+.word 0xf94033a1
+.word 0xf94037a3
+.word 0xd2800000
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf9451070
+.word 0xd63f0200
+.word 0xf94023b1
+.word 0xf9495631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 276 0
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf949d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf94a1631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xf9401bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+
+Lme_27:
 .text
 	.align 4
 	.no_dead_strip vues_tables_Ios_ViewController__ctor_intptr
 vues_tables_Ios_ViewController__ctor_intptr:
 .file 8 "/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/ViewController.cs"
-.loc 8 60 0 prologue_end
+.loc 8 56 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -3191,7 +4907,7 @@ vues_tables_Ios_ViewController__ctor_intptr:
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #800]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -3229,17 +4945,17 @@ bl _p_22
 .word 0xf9402ba0
 .word 0x9100e3a1
 .word 0xf9401fa1
-bl _p_45
+bl _p_59
 .word 0xf94013b1
 .word 0xf942c631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 61 0
+.loc 8 57 0
 .word 0xf94013b1
 .word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 62 0
+.loc 8 58 0
 .word 0xf94013b1
 .word 0xf9434631
 .word 0xb4000051
@@ -3252,20 +4968,20 @@ bl _p_45
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_1f:
+Lme_28:
 .text
 	.align 4
 	.no_dead_strip vues_tables_Ios_ViewController_ViewDidLoad
 vues_tables_Ios_ViewController_ViewDidLoad:
-.loc 8 65 0 prologue_end
-.word 0xa9ba7bfd
+.loc 8 61 0 prologue_end
+.word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #808]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -3288,126 +5004,286 @@ bl _p_1
 .word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 66 0
+.loc 8 62 0
 .word 0xf9400fb1
 .word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_46
+bl _p_60
 .word 0xf9400fb1
 .word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 69 0
+.loc 8 64 0
 .word 0xf9400fb1
 .word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_47
-.word 0xf9002ba0
-.word 0xf9400fb1
-.word 0xf942f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba3
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #608]
+ldr x0, [x16, #816]
+.word 0xf9400000
+.word 0xf9003fa0
+.word 0xaa1a03e0
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #368]
-.word 0xf9400002
-.word 0xaa0303e0
-.word 0x3940007e
-bl _p_48
+ldr x0, [x16, #824]
+bl _p_4
+.word 0xf9403fa1
+.word 0xf9003ba0
+.word 0xaa1a03e2
+bl _p_61
 .word 0xf9400fb1
-.word 0xf943e631
+.word 0xf943a631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 73 0
-.word 0xf9400fb1
-.word 0xf9442631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_47
-.word 0xf90023a0
+.word 0x9100a341
+.word 0xd5033bbf
+.word 0xf9403ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0x92405821
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 8 69 0
 .word 0xf9400fb1
 .word 0xf944a631
 .word 0xb4000051
 .word 0xd63f0220
-
-adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
-add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #616]
-.word 0xf9400000
-.word 0xf90027a0
 .word 0xaa1a03e0
-
-adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
-add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #624]
-bl _p_4
-.word 0xf94027a1
-.word 0xf9001fa0
-.word 0xaa1a03e2
-bl _p_49
+.word 0xaa1a03e0
+bl _p_62
+.word 0xf90037a0
+.word 0xf9400fb1
+.word 0xf9452631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a2
+.word 0xaa1a03e0
+.word 0xf9401741
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_63
 .word 0xf9400fb1
 .word 0xf945c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fa1
-.word 0xf94023a2
-.word 0xaa0203e0
-.word 0x3940005e
-bl _p_50
-.word 0xf9400fb1
-.word 0xf9465631
-.word 0xb4000051
-.word 0xd63f0220
 .loc 8 74 0
 .word 0xf9400fb1
-.word 0xf9469631
+.word 0xf9460631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x540015e0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #832]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_49
+.word 0xf90033a0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54001440
+.word 0xd5033bbf
+.word 0xf94033a0
+.word 0xf900101a
+.word 0x91008001
+.word 0xd349fc21
+.word 0x92405821
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #840]
+.word 0xf9002001
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #848]
+.word 0xf9001402
+.word 0xf9401822
+.word 0xf9000c02
+.word 0xf9401421
+.word 0xf9000801
+.word 0xf9002fa0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0x3980d410
+.word 0xb5000050
+bl _p_3
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #856]
+bl _p_4
+.word 0xf9402fa2
+.word 0xf9002ba0
+.word 0xd2800001
+bl _p_64
+.word 0xf9400fb1
+.word 0xf949b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9100e341
+.word 0xd5033bbf
+.word 0xf9402ba0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0x92405821
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 8 93 0
+.word 0xf9400fb1
+.word 0xf94ab631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800040
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54000c80
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #832]
+.word 0xd2801001
+.word 0xd2801001
+bl _p_49
+.word 0xf90027a0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54000ae0
+.word 0xd5033bbf
+.word 0xf94027a0
+.word 0xf900101a
+.word 0x91008001
+.word 0xd349fc21
+.word 0x92405821
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #864]
+.word 0xf9002001
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #872]
+.word 0xf9001402
+.word 0xf9401822
+.word 0xf9000c02
+.word 0xf9401421
+.word 0xf9000801
+.word 0xf90023a0
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #856]
+bl _p_4
+.word 0xf94023a2
+.word 0xf9001fa0
+.word 0xd2800041
+bl _p_64
+.word 0xf9400fb1
+.word 0xf94e0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x9100c341
+.word 0xd5033bbf
+.word 0xf9401fa0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0x92405821
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 8 120 0
+.word 0xf9400fb1
+.word 0xf94f0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_47
+.word 0xf9400341
+.word 0xf9434430
+.word 0xd63f0200
 .word 0xf9001ba0
 .word 0xf9400fb1
-.word 0xf9472631
+.word 0xf94fa631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401ba1
+.word 0xf9401ba2
 .word 0xaa1a03e0
-bl _p_51
+.word 0xf9401b41
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9418050
+.word 0xd63f0200
 .word 0xf9400fb1
-.word 0xf9479631
+.word 0xf9505631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 8 75 0
+.loc 8 122 0
 .word 0xf9400fb1
-.word 0xf947d631
+.word 0xf9509631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9481631
+.word 0xf950d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c87bfd
 .word 0xd65f03c0
+.word 0xd28018e0
+.word 0xaa1103e1
+bl _p_65
+.word 0xd2800a20
+.word 0xaa1103e1
+bl _p_65
 
-Lme_20:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip vues_tables_Ios_ViewController_get_MyTableView
@@ -3420,7 +5296,7 @@ vues_tables_Ios_ViewController_get_MyTableView:
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #880]
 .word 0xf9000fb0
 .word 0xf9400211
 .word 0xf90013b1
@@ -3437,7 +5313,7 @@ ldr x16, [x16, #632]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.word 0xf9401400
+.word 0xf9402000
 .word 0xf9400fb1
 .word 0xf9417631
 .word 0xb4000051
@@ -3446,7 +5322,7 @@ ldr x16, [x16, #632]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_21:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
@@ -3459,7 +5335,7 @@ vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView:
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #888]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -3478,7 +5354,7 @@ ldr x16, [x16, #640]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf90023a1
-.word 0x9100a001
+.word 0x91010001
 .word 0xd5033bbf
 .word 0xf94023a0
 .word 0xf9000020
@@ -3499,7 +5375,7 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_22:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip vues_tables_Ios_ViewController_ReleaseDesignerOutlets
@@ -3512,7 +5388,7 @@ vues_tables_Ios_ViewController_ReleaseDesignerOutlets:
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #896]
 .word 0xf90013b0
 .word 0xf9400211
 .word 0xf90017b1
@@ -3543,7 +5419,7 @@ bl _p_1
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_47
+bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf9425631
@@ -3568,7 +5444,7 @@ bl _p_47
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_47
+bl _p_62
 .word 0xf90023a0
 .word 0xf94013b1
 .word 0xf943d631
@@ -3577,7 +5453,7 @@ bl _p_47
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0x3940003e
-bl _p_52
+bl _p_66
 .word 0xf94013b1
 .word 0xf9445631
 .word 0xb4000051
@@ -3591,7 +5467,7 @@ bl _p_52
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_53
+bl _p_67
 .word 0xf94013b1
 .word 0xf9452631
 .word 0xb4000051
@@ -3619,12 +5495,12 @@ bl _p_53
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_23:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip vues_tables_Ios_ViewController__cctor
 vues_tables_Ios_ViewController__cctor:
-.loc 8 15 0 prologue_end
+.loc 8 5 0 prologue_end
 .word 0xd2804410
 .word 0x910003f1
 .word 0xcb100231
@@ -3638,7 +5514,7 @@ vues_tables_Ios_ViewController__cctor:
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #904]
 .word 0xf9002bb0
 .word 0xf9400211
 .word 0xf9002fb1
@@ -3665,7 +5541,7 @@ bl _p_1
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #912]
 .word 0xd28000c1
 bl _p_14
 .word 0xaa0003fa
@@ -3677,12 +5553,12 @@ bl _p_14
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #656]
 .word 0xd2800501
 .word 0xd2800501
-bl _p_54
+bl _p_49
 .word 0xf9010ba0
-bl _p_55
+bl _p_50
 .word 0xf9402bb1
 .word 0xf9436631
 .word 0xb4000051
@@ -3695,10 +5571,10 @@ bl _p_55
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #680]
+ldr x1, [x16, #920]
 .word 0xaa1903e0
 .word 0x3940033e
-bl _p_56
+bl _p_51
 .word 0xf9402bb1
 .word 0xf9445631
 .word 0xb4000051
@@ -3711,10 +5587,10 @@ bl _p_56
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #688]
+ldr x1, [x16, #928]
 .word 0xaa1803e0
 .word 0x3940031e
-bl _p_57
+bl _p_52
 .word 0xf9402bb1
 .word 0xf9454631
 .word 0xb4000051
@@ -3727,10 +5603,10 @@ bl _p_57
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #696]
+ldr x1, [x16, #680]
 .word 0xaa1703e0
 .word 0x394002fe
-bl _p_58
+bl _p_53
 .word 0xf9402bb1
 .word 0xf9463631
 .word 0xb4000051
@@ -3753,12 +5629,12 @@ bl _p_58
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #656]
 .word 0xd2800501
 .word 0xd2800501
-bl _p_54
+bl _p_49
 .word 0xf900f3a0
-bl _p_55
+bl _p_50
 .word 0xf9402bb1
 .word 0xf947e631
 .word 0xb4000051
@@ -3771,10 +5647,10 @@ bl _p_55
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #704]
+ldr x1, [x16, #936]
 .word 0xaa1503e0
 .word 0x394002be
-bl _p_56
+bl _p_51
 .word 0xf9402bb1
 .word 0xf948d631
 .word 0xb4000051
@@ -3787,10 +5663,10 @@ bl _p_56
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #712]
+ldr x1, [x16, #944]
 .word 0xaa1403e0
 .word 0x3940029e
-bl _p_57
+bl _p_52
 .word 0xf9402bb1
 .word 0xf949c631
 .word 0xb4000051
@@ -3803,10 +5679,10 @@ bl _p_57
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #696]
+ldr x1, [x16, #680]
 .word 0xaa1303e0
 .word 0x3940027e
-bl _p_58
+bl _p_53
 .word 0xf9402bb1
 .word 0xf94ab631
 .word 0xb4000051
@@ -3829,12 +5705,12 @@ bl _p_58
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #656]
 .word 0xd2800501
 .word 0xd2800501
-bl _p_54
+bl _p_49
 .word 0xf900dba0
-bl _p_55
+bl _p_50
 .word 0xf9402bb1
 .word 0xf94c6631
 .word 0xb4000051
@@ -3847,10 +5723,10 @@ bl _p_55
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #720]
+ldr x1, [x16, #952]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_56
+bl _p_51
 .word 0xf9402bb1
 .word 0xf94d5631
 .word 0xb4000051
@@ -3863,10 +5739,10 @@ bl _p_56
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #728]
+ldr x1, [x16, #960]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_57
+bl _p_52
 .word 0xf9402bb1
 .word 0xf94e4631
 .word 0xb4000051
@@ -3879,10 +5755,10 @@ bl _p_57
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #696]
+ldr x1, [x16, #680]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_58
+bl _p_53
 .word 0xf9402bb1
 .word 0xf94f3631
 .word 0xb4000051
@@ -3905,12 +5781,12 @@ bl _p_58
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #656]
 .word 0xd2800501
 .word 0xd2800501
-bl _p_54
+bl _p_49
 .word 0xf900c3a0
-bl _p_55
+bl _p_50
 .word 0xf9402bb1
 .word 0xf950e631
 .word 0xb4000051
@@ -3923,10 +5799,10 @@ bl _p_55
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #736]
+ldr x1, [x16, #968]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_56
+bl _p_51
 .word 0xf9402bb1
 .word 0xf951d631
 .word 0xb4000051
@@ -3939,10 +5815,10 @@ bl _p_56
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #736]
+ldr x1, [x16, #968]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_57
+bl _p_52
 .word 0xf9402bb1
 .word 0xf952c631
 .word 0xb4000051
@@ -3955,10 +5831,10 @@ bl _p_57
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #696]
+ldr x1, [x16, #680]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_58
+bl _p_53
 .word 0xf9402bb1
 .word 0xf953b631
 .word 0xb4000051
@@ -3981,12 +5857,12 @@ bl _p_58
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #656]
 .word 0xd2800501
 .word 0xd2800501
-bl _p_54
+bl _p_49
 .word 0xf900aba0
-bl _p_55
+bl _p_50
 .word 0xf9402bb1
 .word 0xf9556631
 .word 0xb4000051
@@ -3999,10 +5875,10 @@ bl _p_55
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #744]
+ldr x1, [x16, #976]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_56
+bl _p_51
 .word 0xf9402bb1
 .word 0xf9565631
 .word 0xb4000051
@@ -4015,10 +5891,10 @@ bl _p_56
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #744]
+ldr x1, [x16, #976]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_57
+bl _p_52
 .word 0xf9402bb1
 .word 0xf9574631
 .word 0xb4000051
@@ -4031,10 +5907,10 @@ bl _p_57
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #696]
+ldr x1, [x16, #680]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_58
+bl _p_53
 .word 0xf9402bb1
 .word 0xf9583631
 .word 0xb4000051
@@ -4057,12 +5933,12 @@ bl _p_58
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #656]
 .word 0xd2800501
 .word 0xd2800501
-bl _p_54
+bl _p_49
 .word 0xf90093a0
-bl _p_55
+bl _p_50
 .word 0xf9402bb1
 .word 0xf959e631
 .word 0xb4000051
@@ -4075,10 +5951,10 @@ bl _p_55
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #752]
+ldr x1, [x16, #984]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_56
+bl _p_51
 .word 0xf9402bb1
 .word 0xf95ad631
 .word 0xb4000051
@@ -4091,10 +5967,10 @@ bl _p_56
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #752]
+ldr x1, [x16, #984]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_57
+bl _p_52
 .word 0xf9402bb1
 .word 0xf95bc631
 .word 0xb4000051
@@ -4107,10 +5983,10 @@ bl _p_57
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x1, [x16, #696]
+ldr x1, [x16, #680]
 .word 0xaa0203e0
 .word 0x3940005e
-bl _p_58
+bl _p_53
 .word 0xf9402bb1
 .word 0xf95cb631
 .word 0xb4000051
@@ -4127,7 +6003,7 @@ bl _p_58
 
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #816]
 .word 0xf9007ba0
 .word 0xd5033bbf
 .word 0xf9407ba0
@@ -4148,7 +6024,915 @@ ldr x0, [x16, #616]
 .word 0x9100023f
 .word 0xd65f03c0
 
-Lme_24:
+Lme_2d:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_ViewController__ViewDidLoadb__5_0_object_System_EventArgs
+vues_tables_Ios_ViewController__ViewDidLoadb__5_0_object_System_EventArgs:
+.loc 8 78 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #992]
+.word 0xf90017b0
+.word 0xf9400211
+.word 0xf9001bb1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94017b1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 79 0
+.word 0xf94017b1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_62
+.word 0xf9002fa0
+.word 0xf94017b1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa3
+.word 0xd2a00000
+.word 0xd2800020
+.word 0xaa0303e0
+.word 0xd2a00001
+.word 0xd2800022
+.word 0xf9400063
+.word 0xf944ec70
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9433631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 83 0
+.word 0xf94017b1
+.word 0xf9437631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9401740
+.word 0xf9002ba0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_62
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9442631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a1
+.word 0xf9402ba2
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_68
+.word 0xf94017b1
+.word 0xf944b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 86 0
+.word 0xf94017b1
+.word 0xf944f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9434430
+.word 0xd63f0200
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9459631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a2
+.word 0xaa1a03e0
+.word 0xf9401b41
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9418050
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9464631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 88 0
+.word 0xf94017b1
+.word 0xf9468631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf946c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_2e:
+.text
+	.align 4
+	.no_dead_strip vues_tables_Ios_ViewController__ViewDidLoadb__5_1_object_System_EventArgs
+vues_tables_Ios_ViewController__ViewDidLoadb__5_1_object_System_EventArgs:
+.loc 8 97 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1000]
+.word 0xf9001bb0
+.word 0xf9400211
+.word 0xf9001fb1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xd2a00019
+.word 0xf9401bb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 102 0
+.word 0xf9401bb1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_62
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf9427631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf944e830
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9432631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x53001c00
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x34000440
+.loc 8 103 0
+.word 0xf9401bb1
+.word 0xf943b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 104 0
+.word 0xf9401bb1
+.word 0xf943f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_62
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf9447631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba3
+.word 0xd2a00000
+.word 0xd2800020
+.word 0xaa0303e0
+.word 0xd2a00001
+.word 0xd2800022
+.word 0xf9400063
+.word 0xf944ec70
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf9454631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 107 0
+.word 0xf9401bb1
+.word 0xf9458631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 109 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9460631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9401740
+.word 0xf90037a0
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_62
+.word 0xf90033a0
+.word 0xf9401bb1
+.word 0xf946b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0xaa0203e0
+.word 0x3940005e
+bl _p_69
+.word 0xf9401bb1
+.word 0xf9474631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 112 0
+.word 0xf9401bb1
+.word 0xf9478631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_62
+.word 0xf9002fa0
+.word 0xf9401bb1
+.word 0xf9480631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa3
+.word 0xd2800020
+.word 0xd2800020
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xd2800022
+.word 0xf9400063
+.word 0xf944ec70
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf948d631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 116 0
+.word 0xf9401bb1
+.word 0xf9491631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9434430
+.word 0xd63f0200
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf949b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba2
+.word 0xaa1a03e0
+.word 0xf9401f41
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9418050
+.word 0xd63f0200
+.word 0xf9401bb1
+.word 0xf94a6631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 8 118 0
+.word 0xf9401bb1
+.word 0xf94aa631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf94ae631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_2f:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF:
+.file 10 "<unknown>"
+.loc 10 1 0
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xf9003baf
+.word 0xf9002ba0
+.word 0xaa0103fa
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1008]
+.word 0xf9002fb0
+.word 0xf9400211
+.word 0xf90033b1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #1016]
+.word 0xf9403ba0
+.word 0xf9400c10
+.word 0xb5000050
+bl _p_70
+.word 0xd2a00019
+.word 0xd2a00018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2a00014
+.word 0xf9402fb1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000320
+.word 0xf9402fb1
+.word 0xf9433631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9437631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_71
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf9003fa0
+.word 0xb4000153
+.word 0xf9403fa0
+.word 0xf90043a0
+.word 0xf94043a0
+.word 0xf94043a1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_72
+.word 0xf9403fa0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf944f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x9101e001
+.word 0xf9403c00
+.word 0xaa0003f7
+.word 0xf9402fb1
+.word 0xf9457631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xb50009b7
+.word 0xf9402fb1
+.word 0xf945d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x91008001
+.word 0xf9401000
+.word 0xaa0003f5
+.word 0xf9402fb1
+.word 0xf9465631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x9101c401
+.word 0x3981c400
+.word 0x350000e0
+.word 0xf9402fb1
+.word 0xf946d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xb40003f5
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9477631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xaa1a03e0
+.word 0xf9402ba0
+.word 0x9100e001
+.word 0xf9401c00
+.word 0xf9402ba0
+.word 0xf9400802
+.word 0xaa1503e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x53001c00
+.word 0xf9004ba0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf948b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x14000074
+.word 0xf9402fb1
+.word 0xf9491631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9402ba0
+.word 0x9100e001
+.word 0xf9401c00
+.word 0xf9402ba0
+.word 0xf9400801
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0x53001c00
+.word 0xf9004ba0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf94a3631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x1400005c
+.word 0xf9402fb1
+.word 0xf94a9631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xb9801ae0
+.word 0xaa0003e1
+.word 0xaa0003f8
+.word 0xf9402fb1
+.word 0xf94b1631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2a00019
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf94c0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1903e0
+.word 0x93407f20
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540008a9
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0xf9402fb1
+.word 0xf94d0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xf9004fa0
+.word 0xaa1a03e0
+.word 0xf9403ba0
+.word 0xf9401000
+.word 0xaa1603e0
+.word 0xaa1a03e1
+.word 0xf9400ed0
+.word 0xd63f0200
+.word 0xf9404fa1
+.word 0x53001c00
+.word 0xf9004ba0
+.word 0xf9402fb1
+.word 0xf94e0631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x53001c00
+.word 0xaa0003f4
+.word 0xf9402fb1
+.word 0xf94e7631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0x11000720
+.word 0xaa0003f9
+.word 0xf9402fb1
+.word 0xf94ee631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0x6b18033f
+.word 0x54fff82b
+.word 0xf9402fb1
+.word 0xf94f6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf94ff631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf9402fb1
+.word 0xf9504631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801480
+.word 0xaa1103e1
+bl _p_65
+
+Lme_31:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF:
+.loc 10 1 0
+.word 0xa9b67bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xf9003baf
+.word 0xf9002ba0
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1024]
+.word 0xf9002fb0
+.word 0xf9400211
+.word 0xf90033b1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x1, [x16, #1032]
+.word 0xf9403ba0
+.word 0xf9400c10
+.word 0xb5000050
+bl _p_70
+.word 0xd2a00018
+.word 0xd2a00017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2a00013
+.word 0xf9402fb1
+.word 0xf9423631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf942b631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #48]
+.word 0xb9400000
+.word 0x34000320
+.word 0xf9402fb1
+.word 0xf9434631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9438631
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_71
+.word 0xf9003fa0
+.word 0xf9403fa1
+.word 0xf9403fa0
+.word 0xf90043a1
+.word 0xb4000140
+.word 0xf94043a0
+.word 0xf90047a0
+.word 0xf94047a0
+.word 0xf94047a1
+.word 0x91022021
+.word 0xd2800022
+.word 0xd280003e
+.word 0xb900003e
+bl _p_72
+.word 0xf94043a0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9450631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x9101e001
+.word 0xf9403c00
+.word 0xaa0003f6
+.word 0xf9402fb1
+.word 0xf9458631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb5000a36
+.word 0xf9402fb1
+.word 0xf945e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x91008001
+.word 0xf9401000
+.word 0xaa0003f4
+.word 0xf9402fb1
+.word 0xf9466631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0x9101c401
+.word 0x3981c400
+.word 0x350000e0
+.word 0xf9402fb1
+.word 0xf946e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xb4000434
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9478631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xf9402ba0
+.word 0x9100e001
+.word 0xf9401c00
+.word 0xf9402ba0
+.word 0xf9400803
+.word 0xaa1403e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x93407c00
+.word 0xf9004ba0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf948e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x14000078
+.word 0xf9402fb1
+.word 0xf9494631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xf9402ba0
+.word 0x9100e001
+.word 0xf9401c00
+.word 0xf9402ba0
+.word 0xf9400802
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x93407c00
+.word 0xf9004ba0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf94a8631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0x1400005e
+.word 0xf9402fb1
+.word 0xf94ae631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003e1
+.word 0xaa0003f7
+.word 0xf9402fb1
+.word 0xf94b6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2a00018
+
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x0, [x16, #56]
+.word 0xf9400011
+.word 0xb4000051
+bl _p_1
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf94c5631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540008e9
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xf9402fb1
+.word 0xf94d5631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xf9004fa0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xf9403ba0
+.word 0xf9401000
+.word 0xaa1503e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf9400eb0
+.word 0xd63f0200
+.word 0x93407c00
+.word 0xaa0003e1
+.word 0xf9404fa0
+.word 0xf9004ba1
+.word 0xf9402fb1
+.word 0xf94e8631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xaa0003f3
+.word 0xf9402fb1
+.word 0xf94ee631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xf9402fb1
+.word 0xf94f5631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1703e0
+.word 0x6b17031f
+.word 0x54fff7eb
+.word 0xf9402fb1
+.word 0xf94fd631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9506631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+.word 0xf9402fb1
+.word 0xf950b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8ca7bfd
+.word 0xd65f03c0
+.word 0xd2801480
+.word 0xaa1103e1
+bl _p_65
+
+Lme_32:
 .text
 	.align 3
 jit_code_end:
@@ -4189,12 +6973,27 @@ bl vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios
 bl vues_tables_Ios_TableSource_RowsInSection_UIKit_UITableView_intptr
 bl vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
 bl vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_CommitEditingStyle_UIKit_UITableView_UIKit_UITableViewCellEditingStyle_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_CanEditRow_UIKit_UITableView_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_TitleForDeleteConfirmation_UIKit_UITableView_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_EditingStyleForRow_UIKit_UITableView_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_CanMoveRow_UIKit_UITableView_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_CustomizeMoveTarget_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_MoveRow_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+bl vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView
+bl vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView
 bl vues_tables_Ios_ViewController__ctor_intptr
 bl vues_tables_Ios_ViewController_ViewDidLoad
 bl vues_tables_Ios_ViewController_get_MyTableView
 bl vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
 bl vues_tables_Ios_ViewController_ReleaseDesignerOutlets
 bl vues_tables_Ios_ViewController__cctor
+bl vues_tables_Ios_ViewController__ViewDidLoadb__5_0_object_System_EventArgs
+bl vues_tables_Ios_ViewController__ViewDidLoadb__5_1_object_System_EventArgs
+bl method_addresses
+bl wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+bl wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+bl method_addresses
 bl method_addresses
 method_addresses_end:
 
@@ -4219,12 +7018,20 @@ unwind_info:
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,151,8,17,12,31,0,68,14,240,3,157,62,158,61,68,13,29,68
 	.byte 154,60,13,12,31,0,68,14,96,157,12,158,11,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29,30,12
 	.byte 31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,68,149,19,150,18,68,151,17,152,16,68,153,15,16,12,31
-	.byte 0,68,14,80,157,10,158,9,68,13,29,68,152,8,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,32
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,154,16
-	.byte 25,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,68,154,13,16,12,31,0,68,14
-	.byte 96,157,12,158,11,68,13,29,68,154,10,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,34,12
-	.byte 31,0,84,14,160,4,157,68,158,67,68,13,29,68,147,66,148,65,68,149,64,150,63,68,151,62,152,61,68,153,60,154
-	.byte 59
+	.byte 0,68,14,80,157,10,158,9,68,13,29,68,152,8,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,32
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,154,18
+	.byte 32,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15,68,154
+	.byte 14,32,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68
+	.byte 154,24,27,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,152,13,68,154,12,21,12
+	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,16,12,31,0,68,14,96,157,12,158,11,68
+	.byte 13,29,68,152,10,25,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,68,154,11,22
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14,29,12,31,0,68,14,176,1,157,22
+	.byte 158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15,27,12,31,0,68,14,128,1,157,16,158,15
+	.byte 68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68
+	.byte 154,14,18,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,34,12,31,0,84,14,160,4,157,68,158
+	.byte 67,68,13,29,68,147,66,148,65,68,149,64,150,63,68,151,62,152,61,68,153,60,154,59,16,12,31,0,68,14,96,157
+	.byte 12,158,11,68,13,29,68,154,10,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,34,12,31,0
+	.byte 68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11
 
 .text
 	.align 4
@@ -4235,469 +7042,581 @@ plt__jit_icall_mono_threads_state_poll:
 _p_1:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #1048]
 br x16
-.word 514
+.word 910
 	.no_dead_strip plt_UIKit_UIApplication_Main_string___System_Type_System_Type
 plt_UIKit_UIApplication_Main_string___System_Type_System_Type:
 _p_2:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #1056]
 br x16
-.word 517
+.word 913
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_3:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #1064]
 br x16
-.word 522
+.word 918
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_4:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #1072]
 br x16
-.word 525
+.word 921
 	.no_dead_strip plt_UIKit_UISceneConfiguration__ctor_string_UIKit_UIWindowSceneSessionRole
 plt_UIKit_UISceneConfiguration__ctor_string_UIKit_UIWindowSceneSessionRole:
 _p_5:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #1080]
 br x16
-.word 528
+.word 924
 	.no_dead_strip plt_UIKit_UIApplicationDelegate__ctor
 plt_UIKit_UIApplicationDelegate__ctor:
 _p_6:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #1088]
 br x16
-.word 533
+.word 929
 	.no_dead_strip plt_UIKit_UITableViewCell__ctor_UIKit_UITableViewCellStyle_Foundation_NSString
 plt_UIKit_UITableViewCell__ctor_UIKit_UITableViewCellStyle_Foundation_NSString:
 _p_7:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #1096]
 br x16
-.word 538
+.word 934
 	.no_dead_strip plt_UIKit_UIColor_FromRGB_int_int_int
 plt_UIKit_UIColor_FromRGB_int_int_int:
 _p_8:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #1104]
 br x16
-.word 543
+.word 939
 	.no_dead_strip plt_UIKit_UIImageView__ctor
 plt_UIKit_UIImageView__ctor:
 _p_9:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #1112]
 br x16
-.word 548
+.word 944
 	.no_dead_strip plt_UIKit_UILabel__ctor
 plt_UIKit_UILabel__ctor:
 _p_10:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #1120]
 br x16
-.word 553
+.word 949
 	.no_dead_strip plt_System_Runtime_InteropServices_NFloat_op_Implicit_single
 plt_System_Runtime_InteropServices_NFloat_op_Implicit_single:
 _p_11:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #1128]
 br x16
-.word 558
+.word 954
 	.no_dead_strip plt_UIKit_UIFont_FromName_string_System_Runtime_InteropServices_NFloat
 plt_UIKit_UIFont_FromName_string_System_Runtime_InteropServices_NFloat:
 _p_12:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #1136]
 br x16
-.word 563
+.word 959
 	.no_dead_strip plt_UIKit_UIColor_get_Clear
 plt_UIKit_UIColor_get_Clear:
 _p_13:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #1144]
 br x16
-.word 568
+.word 964
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_14:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #1152]
 br x16
-.word 573
+.word 969
 	.no_dead_strip plt_UIKit_UIView_AddSubviews_UIKit_UIView__
 plt_UIKit_UIView_AddSubviews_UIKit_UIView__:
 _p_15:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #1160]
 br x16
-.word 581
+.word 977
 	.no_dead_strip plt_UIKit_UIView_LayoutSubviews
 plt_UIKit_UIView_LayoutSubviews:
 _p_16:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #1168]
 br x16
-.word 586
+.word 982
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
 plt_CoreGraphics_CGRect_get_Width:
 _p_17:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #1176]
 br x16
-.word 591
+.word 987
 	.no_dead_strip plt_System_Runtime_InteropServices_NFloat_op_Implicit_int
 plt_System_Runtime_InteropServices_NFloat_op_Implicit_int:
 _p_18:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #1184]
 br x16
-.word 596
+.word 992
 	.no_dead_strip plt_System_Runtime_InteropServices_NFloat_op_Subtraction_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat
 plt_System_Runtime_InteropServices_NFloat_op_Subtraction_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat:
 _p_19:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #1192]
 br x16
-.word 601
+.word 997
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat
 plt_CoreGraphics_CGRect__ctor_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat_System_Runtime_InteropServices_NFloat:
 _p_20:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #1200]
 br x16
-.word 606
+.word 1002
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
 plt_CoreGraphics_CGRect__ctor_single_single_single_single:
 _p_21:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #1208]
 br x16
-.word 611
+.word 1007
 	.no_dead_strip plt_ObjCRuntime_NativeHandle_op_Implicit_intptr
 plt_ObjCRuntime_NativeHandle_op_Implicit_intptr:
 _p_22:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #1216]
 br x16
-.word 616
+.word 1012
 	.no_dead_strip plt_UIKit_UITableViewCell__ctor_ObjCRuntime_NativeHandle
 plt_UIKit_UITableViewCell__ctor_ObjCRuntime_NativeHandle:
 _p_23:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #1224]
 br x16
-.word 621
+.word 1017
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_24:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #1232]
 br x16
-.word 626
+.word 1022
 	.no_dead_strip plt_vues_tables_Ios_SceneDelegate_get_Window
 plt_vues_tables_Ios_SceneDelegate_get_Window:
 _p_25:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #1240]
 br x16
-.word 631
+.word 1027
 	.no_dead_strip plt_UIKit_UIWindow__ctor_UIKit_UIWindowScene
 plt_UIKit_UIWindow__ctor_UIKit_UIWindowScene:
 _p_26:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #1248]
 br x16
-.word 633
+.word 1029
 	.no_dead_strip plt_vues_tables_Ios_SceneDelegate_set_Window_UIKit_UIWindow
 plt_vues_tables_Ios_SceneDelegate_set_Window_UIKit_UIWindow:
 _p_27:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1256]
 br x16
-.word 638
+.word 1034
 	.no_dead_strip plt_UIKit_UIStoryboard_FromName_string_Foundation_NSBundle
 plt_UIKit_UIStoryboard_FromName_string_Foundation_NSBundle:
 _p_28:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1264]
 br x16
-.word 640
+.word 1036
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_29:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1272]
 br x16
-.word 645
+.word 1041
 	.no_dead_strip plt__jit_icall_mono_create_corlib_exception_1
 plt__jit_icall_mono_create_corlib_exception_1:
 _p_30:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1280]
 br x16
-.word 648
+.word 1044
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_31:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1288]
 br x16
-.word 651
+.word 1047
 	.no_dead_strip plt_UIKit_UIResponder__ctor
 plt_UIKit_UIResponder__ctor:
 _p_32:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1296]
 br x16
-.word 653
+.word 1049
 	.no_dead_strip plt_UIKit_UITableViewSource__ctor
 plt_UIKit_UITableViewSource__ctor:
 _p_33:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1304]
 br x16
-.word 658
-	.no_dead_strip plt_UIKit_UITableView_DequeueReusableCell_Foundation_NSString
-plt_UIKit_UITableView_DequeueReusableCell_Foundation_NSString:
+.word 1054
+	.no_dead_strip plt_System_Linq_Enumerable_ToList_vues_tables_Ios_TableItem_System_Collections_Generic_IEnumerable_1_vues_tables_Ios_TableItem
+plt_System_Linq_Enumerable_ToList_vues_tables_Ios_TableItem_System_Collections_Generic_IEnumerable_1_vues_tables_Ios_TableItem:
 _p_34:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1312]
 br x16
-.word 663
-	.no_dead_strip plt_vues_tables_Ios_CustomVegeCell__ctor_Foundation_NSString
-plt_vues_tables_Ios_CustomVegeCell__ctor_Foundation_NSString:
+.word 1059
+	.no_dead_strip plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_get_Count
+plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_get_Count:
 _p_35:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1320]
 br x16
-.word 668
-	.no_dead_strip plt_Foundation_NSIndexPath_get_Row
-plt_Foundation_NSIndexPath_get_Row:
+.word 1071
+	.no_dead_strip plt_UIKit_UITableView_DequeueReusableCell_Foundation_NSString
+plt_UIKit_UITableView_DequeueReusableCell_Foundation_NSString:
 _p_36:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1328]
 br x16
-.word 670
-	.no_dead_strip plt_vues_tables_Ios_TableItem_get_Heading
-plt_vues_tables_Ios_TableItem_get_Heading:
+.word 1082
+	.no_dead_strip plt_vues_tables_Ios_CustomVegeCell__ctor_Foundation_NSString
+plt_vues_tables_Ios_CustomVegeCell__ctor_Foundation_NSString:
 _p_37:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1336]
 br x16
-.word 675
-	.no_dead_strip plt_vues_tables_Ios_TableItem_get_SubHeading
-plt_vues_tables_Ios_TableItem_get_SubHeading:
+.word 1087
+	.no_dead_strip plt_Foundation_NSIndexPath_get_Row
+plt_Foundation_NSIndexPath_get_Row:
 _p_38:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1344]
 br x16
-.word 677
-	.no_dead_strip plt_vues_tables_Ios_TableItem_get_ImageName
-plt_vues_tables_Ios_TableItem_get_ImageName:
+.word 1089
+	.no_dead_strip plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_get_Item_int
+plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_get_Item_int:
 _p_39:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1352]
 br x16
-.word 679
-	.no_dead_strip plt_UIKit_UIImage_FromFile_string
-plt_UIKit_UIImage_FromFile_string:
+.word 1094
+	.no_dead_strip plt_vues_tables_Ios_TableItem_get_Heading
+plt_vues_tables_Ios_TableItem_get_Heading:
 _p_40:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1360]
 br x16
-.word 681
-	.no_dead_strip plt_vues_tables_Ios_CustomVegeCell_UpdateCell_string_string_UIKit_UIImage
-plt_vues_tables_Ios_CustomVegeCell_UpdateCell_string_string_UIKit_UIImage:
+.word 1105
+	.no_dead_strip plt_vues_tables_Ios_TableItem_get_SubHeading
+plt_vues_tables_Ios_TableItem_get_SubHeading:
 _p_41:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1368]
 br x16
-.word 686
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
+.word 1107
+	.no_dead_strip plt_vues_tables_Ios_TableItem_get_ImageName
+plt_vues_tables_Ios_TableItem_get_ImageName:
 _p_42:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1376]
 br x16
-.word 688
-	.no_dead_strip plt_UIKit_UIAlertController_Create_string_string_UIKit_UIAlertControllerStyle
-plt_UIKit_UIAlertController_Create_string_string_UIKit_UIAlertControllerStyle:
+.word 1109
+	.no_dead_strip plt_string_IsNullOrEmpty_string
+plt_string_IsNullOrEmpty_string:
 _p_43:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1384]
 br x16
-.word 690
-	.no_dead_strip plt_UIKit_UIAlertAction_Create_string_UIKit_UIAlertActionStyle_System_Action_1_UIKit_UIAlertAction
-plt_UIKit_UIAlertAction_Create_string_UIKit_UIAlertActionStyle_System_Action_1_UIKit_UIAlertAction:
+.word 1111
+	.no_dead_strip plt_UIKit_UIImage_FromFile_string
+plt_UIKit_UIImage_FromFile_string:
 _p_44:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1392]
 br x16
-.word 695
-	.no_dead_strip plt_UIKit_UIViewController__ctor_ObjCRuntime_NativeHandle
-plt_UIKit_UIViewController__ctor_ObjCRuntime_NativeHandle:
+.word 1116
+	.no_dead_strip plt_vues_tables_Ios_CustomVegeCell_UpdateCell_string_string_UIKit_UIImage
+plt_vues_tables_Ios_CustomVegeCell_UpdateCell_string_string_UIKit_UIImage:
 _p_45:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1400]
 br x16
-.word 700
-	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
-plt_UIKit_UIViewController_ViewDidLoad:
+.word 1121
+	.no_dead_strip plt_UIKit_UIAlertController_Create_string_string_UIKit_UIAlertControllerStyle
+plt_UIKit_UIAlertController_Create_string_string_UIKit_UIAlertControllerStyle:
 _p_46:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1408]
 br x16
-.word 705
-	.no_dead_strip plt_vues_tables_Ios_ViewController_get_MyTableView
-plt_vues_tables_Ios_ViewController_get_MyTableView:
+.word 1123
+	.no_dead_strip plt_UIKit_UIAlertAction_Create_string_UIKit_UIAlertActionStyle_System_Action_1_UIKit_UIAlertAction
+plt_UIKit_UIAlertAction_Create_string_UIKit_UIAlertActionStyle_System_Action_1_UIKit_UIAlertAction:
 _p_47:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1416]
 br x16
-.word 710
-	.no_dead_strip plt_UIKit_UITableView_RegisterClassForCellReuse_System_Type_Foundation_NSString
-plt_UIKit_UITableView_RegisterClassForCellReuse_System_Type_Foundation_NSString:
+.word 1128
+	.no_dead_strip plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_RemoveAt_int
+plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_RemoveAt_int:
 _p_48:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1424]
 br x16
-.word 712
-	.no_dead_strip plt_vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController
-plt_vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController:
+.word 1133
+	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_49:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1432]
 br x16
-.word 717
-	.no_dead_strip plt_UIKit_UITableView_set_Source_UIKit_UITableViewSource
-plt_UIKit_UITableView_set_Source_UIKit_UITableViewSource:
+.word 1144
+	.no_dead_strip plt_vues_tables_Ios_TableItem__ctor
+plt_vues_tables_Ios_TableItem__ctor:
 _p_50:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1440]
 br x16
-.word 719
-	.no_dead_strip plt_UIKit_UIViewController_Add_UIKit_UIView
-plt_UIKit_UIViewController_Add_UIKit_UIView:
+.word 1152
+	.no_dead_strip plt_vues_tables_Ios_TableItem_set_Heading_string
+plt_vues_tables_Ios_TableItem_set_Heading_string:
 _p_51:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1448]
 br x16
-.word 724
-	.no_dead_strip plt_Foundation_NSObject_Dispose
-plt_Foundation_NSObject_Dispose:
+.word 1154
+	.no_dead_strip plt_vues_tables_Ios_TableItem_set_SubHeading_string
+plt_vues_tables_Ios_TableItem_set_SubHeading_string:
 _p_52:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1456]
 br x16
-.word 729
-	.no_dead_strip plt_vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
-plt_vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView:
+.word 1156
+	.no_dead_strip plt_vues_tables_Ios_TableItem_set_ImageName_string
+plt_vues_tables_Ios_TableItem_set_ImageName_string:
 _p_53:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1464]
 br x16
-.word 734
-	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
-plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
+.word 1158
+	.no_dead_strip plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_Insert_int_vues_tables_Ios_TableItem
+plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_Insert_int_vues_tables_Ios_TableItem:
 _p_54:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1472]
 br x16
-.word 736
-	.no_dead_strip plt_vues_tables_Ios_TableItem__ctor
-plt_vues_tables_Ios_TableItem__ctor:
+.word 1160
+	.no_dead_strip plt_Foundation_NSIndexPath_get_Section
+plt_Foundation_NSIndexPath_get_Section:
 _p_55:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1480]
 br x16
-.word 744
-	.no_dead_strip plt_vues_tables_Ios_TableItem_set_Heading_string
-plt_vues_tables_Ios_TableItem_set_Heading_string:
+.word 1171
+	.no_dead_strip plt_Foundation_NSIndexPath_FromRowSection_intptr_intptr
+plt_Foundation_NSIndexPath_FromRowSection_intptr_intptr:
 _p_56:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1488]
 br x16
-.word 746
-	.no_dead_strip plt_vues_tables_Ios_TableItem_set_SubHeading_string
-plt_vues_tables_Ios_TableItem_set_SubHeading_string:
+.word 1176
+	.no_dead_strip plt_string_Concat_string_string_string
+plt_string_Concat_string_string_string:
 _p_57:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1496]
 br x16
-.word 748
-	.no_dead_strip plt_vues_tables_Ios_TableItem_set_ImageName_string
-plt_vues_tables_Ios_TableItem_set_ImageName_string:
+.word 1181
+	.no_dead_strip plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_Add_vues_tables_Ios_TableItem
+plt_System_Collections_Generic_List_1_vues_tables_Ios_TableItem_Add_vues_tables_Ios_TableItem:
 _p_58:
 adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
 add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1504]
 br x16
-.word 750
+.word 1186
+	.no_dead_strip plt_UIKit_UIViewController__ctor_ObjCRuntime_NativeHandle
+plt_UIKit_UIViewController__ctor_ObjCRuntime_NativeHandle:
+_p_59:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1512]
+br x16
+.word 1197
+	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
+plt_UIKit_UIViewController_ViewDidLoad:
+_p_60:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1520]
+br x16
+.word 1202
+	.no_dead_strip plt_vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController
+plt_vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController:
+_p_61:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1528]
+br x16
+.word 1207
+	.no_dead_strip plt_vues_tables_Ios_ViewController_get_MyTableView
+plt_vues_tables_Ios_ViewController_get_MyTableView:
+_p_62:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1536]
+br x16
+.word 1209
+	.no_dead_strip plt_UIKit_UITableView_set_Source_UIKit_UITableViewSource
+plt_UIKit_UITableView_set_Source_UIKit_UITableViewSource:
+_p_63:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1544]
+br x16
+.word 1211
+	.no_dead_strip plt_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem_System_EventHandler
+plt_UIKit_UIBarButtonItem__ctor_UIKit_UIBarButtonSystemItem_System_EventHandler:
+_p_64:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1552]
+br x16
+.word 1216
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_65:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1560]
+br x16
+.word 1221
+	.no_dead_strip plt_Foundation_NSObject_Dispose
+plt_Foundation_NSObject_Dispose:
+_p_66:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1568]
+br x16
+.word 1223
+	.no_dead_strip plt_vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
+plt_vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView:
+_p_67:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1576]
+br x16
+.word 1228
+	.no_dead_strip plt_vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView
+plt_vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView:
+_p_68:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1584]
+br x16
+.word 1230
+	.no_dead_strip plt_vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView
+plt_vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView:
+_p_69:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1592]
+br x16
+.word 1232
+	.no_dead_strip plt__jit_icall_mini_init_method_rgctx
+plt__jit_icall_mini_init_method_rgctx:
+_p_70:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1600]
+br x16
+.word 1234
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_71:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1608]
+br x16
+.word 1237
+	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
+plt__jit_icall_mono_arch_rethrow_exception:
+_p_72:
+adrp x16, mono_aot_vues_tables_Ios_got@PAGE+0
+add x16, x16, mono_aot_vues_tables_Ios_got@PAGEOFF
+ldr x16, [x16, #1616]
+br x16
+.word 1240
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_vues_tables_Ios_got, 1232
+.lcomm mono_aot_vues_tables_Ios_got, 1624
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -4720,7 +7639,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "9440E89E-42C3-455E-92A5-8C5683BB7921"
+	.asciz "3D288AEA-6A23-480E-A91B-7E944B59F82D"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -4809,15 +7728,15 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 95,95,1232,200,59,38,0,102
-	.long 391195135,0,10138,128,8,8,7,9
-	.long 8388607,0,4,25,11048,0,0,0
-	.long 0,904,232,568,0,464,224,112
-	.long 320,0,608,896,72,0,0,0
+	.long 130,130,1624,200,73,53,2,102
+	.long 391195135,0,14333,128,8,8,7,9
+	.long 8388607,0,4,25,15496,0,0,0
+	.long 0,1152,304,728,0,584,264,152
+	.long 392,0,768,1144,96,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 189,174,208,163,241,22,184,209,171,203,91,213,8,94,9,39
+	.byte 27,254,8,21,247,28,187,10,149,236,70,83,254,174,81,205
 	.globl _mono_aot_module_vues_tables_Ios_info
 	.align 3
 _mono_aot_module_vues_tables_Ios_info:
@@ -6653,125 +9572,612 @@ LDIFF_SYM248=LTDIE_29 - Ldebug_info_start
 LTDIE_33:
 
 	.byte 5
-	.asciz "UIKit_UIScrollView"
+	.asciz "UIKit_UIBarItem"
 
-	.byte 48,16
-LDIFF_SYM249=LTDIE_15 - Ldebug_info_start
+	.byte 24,16
+LDIFF_SYM249=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM249
-	.byte 2,35,0,6
-	.asciz "__mt_WeakDelegate_var"
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIBarItem"
 
-LDIFF_SYM250=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM250=LTDIE_33 - Ldebug_info_start
 	.long LDIFF_SYM250
-	.byte 2,35,40,0,7
-	.asciz "UIKit_UIScrollView"
-
-LDIFF_SYM251=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM251
 LTDIE_33_POINTER:
 
 	.byte 13
-LDIFF_SYM252=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM252
+LDIFF_SYM251=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM251
 LTDIE_33_REFERENCE:
 
 	.byte 14
-LDIFF_SYM253=LTDIE_33 - Ldebug_info_start
+LDIFF_SYM252=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM252
+LTDIE_34:
+
+	.byte 5
+	.asciz "_Callback"
+
+	.byte 32,16
+LDIFF_SYM253=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM253
+	.byte 2,35,0,6
+	.asciz "container"
+
+LDIFF_SYM254=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM254
+	.byte 2,35,24,0,7
+	.asciz "_Callback"
+
+LDIFF_SYM255=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM255
+LTDIE_34_POINTER:
+
+	.byte 13
+LDIFF_SYM256=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM256
+LTDIE_34_REFERENCE:
+
+	.byte 14
+LDIFF_SYM257=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM257
+LTDIE_40:
+
+	.byte 5
+	.asciz "System_Reflection_MemberInfo"
+
+	.byte 16,16
+LDIFF_SYM258=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM258
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MemberInfo"
+
+LDIFF_SYM259=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM259
+LTDIE_40_POINTER:
+
+	.byte 13
+LDIFF_SYM260=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM260
+LTDIE_40_REFERENCE:
+
+	.byte 14
+LDIFF_SYM261=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM261
+LTDIE_39:
+
+	.byte 5
+	.asciz "System_Reflection_MethodBase"
+
+	.byte 16,16
+LDIFF_SYM262=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM262
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodBase"
+
+LDIFF_SYM263=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM263
+LTDIE_39_POINTER:
+
+	.byte 13
+LDIFF_SYM264=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM264
+LTDIE_39_REFERENCE:
+
+	.byte 14
+LDIFF_SYM265=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM265
+LTDIE_38:
+
+	.byte 5
+	.asciz "System_Reflection_MethodInfo"
+
+	.byte 16,16
+LDIFF_SYM266=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM266
+	.byte 2,35,0,0,7
+	.asciz "System_Reflection_MethodInfo"
+
+LDIFF_SYM267=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM267
+LTDIE_38_POINTER:
+
+	.byte 13
+LDIFF_SYM268=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM268
+LTDIE_38_REFERENCE:
+
+	.byte 14
+LDIFF_SYM269=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM269
+LTDIE_44:
+
+	.byte 5
+	.asciz "System_Reflection_LoaderAllocatorScout"
+
+	.byte 24,16
+LDIFF_SYM270=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM270
+	.byte 2,35,0,6
+	.asciz "m_native"
+
+LDIFF_SYM271=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM271
+	.byte 2,35,16,0,7
+	.asciz "System_Reflection_LoaderAllocatorScout"
+
+LDIFF_SYM272=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM272
+LTDIE_44_POINTER:
+
+	.byte 13
+LDIFF_SYM273=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM273
+LTDIE_44_REFERENCE:
+
+	.byte 14
+LDIFF_SYM274=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM274
+LTDIE_45:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 20,16
+LDIFF_SYM275=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM275
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM276
+	.byte 2,35,16,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM277=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM277
+LTDIE_45_POINTER:
+
+	.byte 13
+LDIFF_SYM278=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM278
+LTDIE_45_REFERENCE:
+
+	.byte 14
+LDIFF_SYM279=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM279
+LTDIE_43:
+
+	.byte 5
+	.asciz "System_Reflection_LoaderAllocator"
+
+	.byte 48,16
+LDIFF_SYM280=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM280
+	.byte 2,35,0,6
+	.asciz "m_scout"
+
+LDIFF_SYM281=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM281
+	.byte 2,35,16,6
+	.asciz "m_slots"
+
+LDIFF_SYM282=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM282
+	.byte 2,35,24,6
+	.asciz "m_hashes"
+
+LDIFF_SYM283=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM283
+	.byte 2,35,32,6
+	.asciz "m_nslots"
+
+LDIFF_SYM284=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM284
+	.byte 2,35,40,0,7
+	.asciz "System_Reflection_LoaderAllocator"
+
+LDIFF_SYM285=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM285
+LTDIE_43_POINTER:
+
+	.byte 13
+LDIFF_SYM286=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM286
+LTDIE_43_REFERENCE:
+
+	.byte 14
+LDIFF_SYM287=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM287
+LTDIE_42:
+
+	.byte 5
+	.asciz "System_Type"
+
+	.byte 32,16
+LDIFF_SYM288=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM288
+	.byte 2,35,0,6
+	.asciz "_impl"
+
+LDIFF_SYM289=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM289
+	.byte 2,35,16,6
+	.asciz "m_keepalive"
+
+LDIFF_SYM290=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM290
+	.byte 2,35,24,0,7
+	.asciz "System_Type"
+
+LDIFF_SYM291=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM291
+LTDIE_42_POINTER:
+
+	.byte 13
+LDIFF_SYM292=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM292
+LTDIE_42_REFERENCE:
+
+	.byte 14
+LDIFF_SYM293=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM293
+LTDIE_41:
+
+	.byte 5
+	.asciz "System_DelegateData"
+
+	.byte 40,16
+LDIFF_SYM294=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM294
+	.byte 2,35,0,6
+	.asciz "target_type"
+
+LDIFF_SYM295=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 2,35,16,6
+	.asciz "method_name"
+
+LDIFF_SYM296=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM296
+	.byte 2,35,24,6
+	.asciz "curried_first_arg"
+
+LDIFF_SYM297=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM297
+	.byte 2,35,32,0,7
+	.asciz "System_DelegateData"
+
+LDIFF_SYM298=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM298
+LTDIE_41_POINTER:
+
+	.byte 13
+LDIFF_SYM299=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM299
+LTDIE_41_REFERENCE:
+
+	.byte 14
+LDIFF_SYM300=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM300
+LTDIE_37:
+
+	.byte 5
+	.asciz "System_Delegate"
+
+	.byte 120,16
+LDIFF_SYM301=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM301
+	.byte 2,35,0,6
+	.asciz "method_ptr"
+
+LDIFF_SYM302=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM302
+	.byte 2,35,16,6
+	.asciz "invoke_impl"
+
+LDIFF_SYM303=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM303
+	.byte 2,35,24,6
+	.asciz "_target"
+
+LDIFF_SYM304=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM304
+	.byte 2,35,32,6
+	.asciz "method"
+
+LDIFF_SYM305=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM305
+	.byte 2,35,40,6
+	.asciz "delegate_trampoline"
+
+LDIFF_SYM306=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM306
+	.byte 2,35,48,6
+	.asciz "extra_arg"
+
+LDIFF_SYM307=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM307
+	.byte 2,35,56,6
+	.asciz "method_code"
+
+LDIFF_SYM308=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM308
+	.byte 2,35,64,6
+	.asciz "interp_method"
+
+LDIFF_SYM309=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM309
+	.byte 2,35,72,6
+	.asciz "interp_invoke_impl"
+
+LDIFF_SYM310=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM310
+	.byte 2,35,80,6
+	.asciz "method_info"
+
+LDIFF_SYM311=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM311
+	.byte 2,35,88,6
+	.asciz "original_method_info"
+
+LDIFF_SYM312=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM312
+	.byte 2,35,96,6
+	.asciz "data"
+
+LDIFF_SYM313=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM313
+	.byte 2,35,104,6
+	.asciz "method_is_virtual"
+
+LDIFF_SYM314=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM314
+	.byte 2,35,112,6
+	.asciz "bound"
+
+LDIFF_SYM315=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM315
+	.byte 2,35,113,0,7
+	.asciz "System_Delegate"
+
+LDIFF_SYM316=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM316
+LTDIE_37_POINTER:
+
+	.byte 13
+LDIFF_SYM317=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM317
+LTDIE_37_REFERENCE:
+
+	.byte 14
+LDIFF_SYM318=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM318
+LTDIE_36:
+
+	.byte 5
+	.asciz "System_MulticastDelegate"
+
+	.byte 128,1,16
+LDIFF_SYM319=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM319
+	.byte 2,35,0,6
+	.asciz "delegates"
+
+LDIFF_SYM320=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM320
+	.byte 2,35,120,0,7
+	.asciz "System_MulticastDelegate"
+
+LDIFF_SYM321=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM321
+LTDIE_36_POINTER:
+
+	.byte 13
+LDIFF_SYM322=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM322
+LTDIE_36_REFERENCE:
+
+	.byte 14
+LDIFF_SYM323=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM323
+LTDIE_35:
+
+	.byte 5
+	.asciz "System_EventHandler"
+
+	.byte 128,1,16
+LDIFF_SYM324=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM324
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler"
+
+LDIFF_SYM325=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM325
+LTDIE_35_POINTER:
+
+	.byte 13
+LDIFF_SYM326=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM326
+LTDIE_35_REFERENCE:
+
+	.byte 14
+LDIFF_SYM327=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM327
 LTDIE_32:
+
+	.byte 5
+	.asciz "UIKit_UIBarButtonItem"
+
+	.byte 48,16
+LDIFF_SYM328=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM328
+	.byte 2,35,0,6
+	.asciz "callback"
+
+LDIFF_SYM329=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM329
+	.byte 2,35,24,6
+	.asciz "clicked"
+
+LDIFF_SYM330=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM330
+	.byte 2,35,32,6
+	.asciz "__mt_Target_var"
+
+LDIFF_SYM331=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM331
+	.byte 2,35,40,0,7
+	.asciz "UIKit_UIBarButtonItem"
+
+LDIFF_SYM332=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM332
+LTDIE_32_POINTER:
+
+	.byte 13
+LDIFF_SYM333=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM333
+LTDIE_32_REFERENCE:
+
+	.byte 14
+LDIFF_SYM334=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM334
+LTDIE_47:
+
+	.byte 5
+	.asciz "UIKit_UIScrollView"
+
+	.byte 48,16
+LDIFF_SYM335=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM335
+	.byte 2,35,0,6
+	.asciz "__mt_WeakDelegate_var"
+
+LDIFF_SYM336=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM336
+	.byte 2,35,40,0,7
+	.asciz "UIKit_UIScrollView"
+
+LDIFF_SYM337=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM337
+LTDIE_47_POINTER:
+
+	.byte 13
+LDIFF_SYM338=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM338
+LTDIE_47_REFERENCE:
+
+	.byte 14
+LDIFF_SYM339=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM339
+LTDIE_46:
 
 	.byte 5
 	.asciz "UIKit_UITableView"
 
 	.byte 64,16
-LDIFF_SYM254=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM254
+LDIFF_SYM340=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 2,35,0,6
 	.asciz "__mt_WeakDataSource_var"
 
-LDIFF_SYM255=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM255
+LDIFF_SYM341=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2,35,48,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM256=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM256
+LDIFF_SYM342=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM342
 	.byte 2,35,56,0,7
 	.asciz "UIKit_UITableView"
 
-LDIFF_SYM257=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM257
-LTDIE_32_POINTER:
+LDIFF_SYM343=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM343
+LTDIE_46_POINTER:
 
 	.byte 13
-LDIFF_SYM258=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM258
-LTDIE_32_REFERENCE:
+LDIFF_SYM344=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM344
+LTDIE_46_REFERENCE:
 
 	.byte 14
-LDIFF_SYM259=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM259
+LDIFF_SYM345=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM345
 LTDIE_31:
 
 	.byte 5
 	.asciz "vues_tables_Ios_ViewController"
 
-	.byte 48,16
-LDIFF_SYM260=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM260
+	.byte 72,16
+LDIFF_SYM346=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM346
 	.byte 2,35,0,6
+	.asciz "tableSource"
+
+LDIFF_SYM347=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM347
+	.byte 2,35,40,6
+	.asciz "editButton"
+
+LDIFF_SYM348=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM348
+	.byte 2,35,48,6
+	.asciz "doneButton"
+
+LDIFF_SYM349=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM349
+	.byte 2,35,56,6
 	.asciz "<MyTableView>k__BackingField"
 
-LDIFF_SYM261=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM261
-	.byte 2,35,40,0,7
+LDIFF_SYM350=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM350
+	.byte 2,35,64,0,7
 	.asciz "vues_tables_Ios_ViewController"
 
-LDIFF_SYM262=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM262
+LDIFF_SYM351=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM351
 LTDIE_31_POINTER:
 
 	.byte 13
-LDIFF_SYM263=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM263
+LDIFF_SYM352=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM352
 LTDIE_31_REFERENCE:
 
 	.byte 14
-LDIFF_SYM264=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM264
+LDIFF_SYM353=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM353
 LTDIE_28:
 
 	.byte 5
 	.asciz "vues_tables_Ios_TableSource"
 
 	.byte 40,16
-LDIFF_SYM265=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM265
+LDIFF_SYM354=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM354
 	.byte 2,35,0,6
 	.asciz "TableItems"
 
-LDIFF_SYM266=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM266
+LDIFF_SYM355=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 2,35,24,6
 	.asciz "owner"
 
-LDIFF_SYM267=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM267
+LDIFF_SYM356=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 2,35,32,0,7
 	.asciz "vues_tables_Ios_TableSource"
 
-LDIFF_SYM268=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM268
+LDIFF_SYM357=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM357
 LTDIE_28_POINTER:
 
 	.byte 13
-LDIFF_SYM269=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM358=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM358
 LTDIE_28_REFERENCE:
 
 	.byte 14
-LDIFF_SYM270=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM359=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 2
 	.asciz "vues_tables_Ios.TableSource:.ctor"
 	.asciz "vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController"
@@ -6783,32 +10189,32 @@ LDIFF_SYM270=LTDIE_28 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM271=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM360=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 1,104,3
 	.asciz "items"
 
-LDIFF_SYM272=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM272
+LDIFF_SYM361=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM361
 	.byte 2,141,24,3
 	.asciz "owner"
 
-LDIFF_SYM273=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM273
+LDIFF_SYM362=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM274=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM274
+LDIFF_SYM363=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM363
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController
 
-LDIFF_SYM275=Lme_1b - vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController
-	.long LDIFF_SYM275
+LDIFF_SYM364=Lme_1b - vues_tables_Ios_TableSource__ctor_vues_tables_Ios_TableItem___vues_tables_Ios_ViewController
+	.long LDIFF_SYM364
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8
 	.align 3
@@ -6827,198 +10233,740 @@ Lfde27_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM276=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM276
+LDIFF_SYM365=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM365
 	.byte 2,141,24,3
 	.asciz "tableView"
 
-LDIFF_SYM277=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM366=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM366
 	.byte 2,141,32,3
 	.asciz "section"
 
-LDIFF_SYM278=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM367=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM367
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM279=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM279
+LDIFF_SYM368=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM368
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM280=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM280
+LDIFF_SYM369=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM369
 Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_TableSource_RowsInSection_UIKit_UITableView_intptr
 
-LDIFF_SYM281=Lme_1c - vues_tables_Ios_TableSource_RowsInSection_UIKit_UITableView_intptr
-	.long LDIFF_SYM281
+LDIFF_SYM370=Lme_1c - vues_tables_Ios_TableSource_RowsInSection_UIKit_UITableView_intptr
+	.long LDIFF_SYM370
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
 Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_34:
+LTDIE_48:
 
 	.byte 5
 	.asciz "Foundation_NSIndexPath"
 
 	.byte 24,16
-LDIFF_SYM282=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM282
+LDIFF_SYM371=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM371
 	.byte 2,35,0,0,7
 	.asciz "Foundation_NSIndexPath"
 
-LDIFF_SYM283=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM283
-LTDIE_34_POINTER:
+LDIFF_SYM372=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM372
+LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM284=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM284
-LTDIE_34_REFERENCE:
+LDIFF_SYM373=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM373
+LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM285=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM285
+LDIFF_SYM374=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 2
 	.asciz "vues_tables_Ios.TableSource:GetCell"
 	.asciz "vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath"
 
-	.byte 7,24
+	.byte 7,26
 	.quad vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
 	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM286=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM286
-	.byte 1,104,3
+LDIFF_SYM375=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM375
+	.byte 3,141,200,0,3
 	.asciz "tableView"
 
-LDIFF_SYM287=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM287
-	.byte 3,141,200,0,3
+LDIFF_SYM376=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM376
+	.byte 3,141,208,0,3
 	.asciz "indexPath"
 
-LDIFF_SYM288=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM288
-	.byte 1,106,11
+LDIFF_SYM377=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM377
+	.byte 3,141,216,0,11
 	.asciz "cell"
 
-LDIFF_SYM289=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM289
-	.byte 1,103,11
-	.asciz "V_1"
+LDIFF_SYM378=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM378
+	.byte 3,141,248,0,11
+	.asciz "item"
 
-LDIFF_SYM290=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM290
-	.byte 1,102,11
+LDIFF_SYM379=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM379
+	.byte 3,141,128,1,11
 	.asciz "V_2"
 
-LDIFF_SYM291=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM291
-	.byte 1,101,0
+LDIFF_SYM380=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM380
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM381=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM381
+	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM292=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM292
+LDIFF_SYM382=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM382
 Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM293=Lme_1d - vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM293
+LDIFF_SYM383=Lme_1d - vues_tables_Ios_TableSource_GetCell_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM383
 	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,154,16
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,68,154,18
 	.align 3
 Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_35:
+LTDIE_49:
 
 	.byte 5
 	.asciz "UIKit_UIAlertController"
 
 	.byte 40,16
-LDIFF_SYM294=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM294
+LDIFF_SYM384=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIAlertController"
 
-LDIFF_SYM295=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM295
-LTDIE_35_POINTER:
+LDIFF_SYM385=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM385
+LTDIE_49_POINTER:
 
 	.byte 13
-LDIFF_SYM296=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM296
-LTDIE_35_REFERENCE:
+LDIFF_SYM386=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM386
+LTDIE_49_REFERENCE:
 
 	.byte 14
-LDIFF_SYM297=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM387=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM387
 	.byte 2
 	.asciz "vues_tables_Ios.TableSource:RowSelected"
 	.asciz "vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath"
 
-	.byte 7,37
+	.byte 7,49
 	.quad vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM298=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM388=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM388
 	.byte 1,104,3
 	.asciz "tableView"
 
-LDIFF_SYM299=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM299
-	.byte 2,141,48,3
+LDIFF_SYM389=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM389
+	.byte 1,105,3
 	.asciz "indexPath"
 
-LDIFF_SYM300=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM390=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM390
 	.byte 1,106,11
 	.asciz "item"
 
-LDIFF_SYM301=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM391=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM391
 	.byte 1,103,11
 	.asciz "alert"
 
-LDIFF_SYM302=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM302
-	.byte 1,102,0
+LDIFF_SYM392=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM392
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM393=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM393
+	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM303=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM303
+LDIFF_SYM394=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM394
 Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
 
-LDIFF_SYM304=Lme_1e - vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
-	.long LDIFF_SYM304
+LDIFF_SYM395=Lme_1e - vues_tables_Ios_TableSource_RowSelected_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM395
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,68,154,13
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
 Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_50:
+
+	.byte 8
+	.asciz "UIKit_UITableViewCellEditingStyle"
+
+	.byte 8
+LDIFF_SYM396=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM396
+	.byte 9
+	.asciz "None"
+
+	.byte 0,9
+	.asciz "Delete"
+
+	.byte 1,9
+	.asciz "Insert"
+
+	.byte 2,0,7
+	.asciz "UIKit_UITableViewCellEditingStyle"
+
+LDIFF_SYM397=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM397
+LTDIE_50_POINTER:
+
+	.byte 13
+LDIFF_SYM398=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM398
+LTDIE_50_REFERENCE:
+
+	.byte 14
+LDIFF_SYM399=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM399
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:CommitEditingStyle"
+	.asciz "vues_tables_Ios_TableSource_CommitEditingStyle_UIKit_UITableView_UIKit_UITableViewCellEditingStyle_Foundation_NSIndexPath"
+
+	.byte 7,85
+	.quad vues_tables_Ios_TableSource_CommitEditingStyle_UIKit_UITableView_UIKit_UITableViewCellEditingStyle_Foundation_NSIndexPath
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM400=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM400
+	.byte 1,103,3
+	.asciz "tableView"
+
+LDIFF_SYM401=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM401
+	.byte 3,141,200,0,3
+	.asciz "editingStyle"
+
+LDIFF_SYM402=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM402
+	.byte 3,141,208,0,3
+	.asciz "indexPath"
+
+LDIFF_SYM403=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM403
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM404=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM404
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM405=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM405
+	.byte 1,101,11
+	.asciz "insertIndex"
+
+LDIFF_SYM406=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM406
+	.byte 1,100,11
+	.asciz "newItem"
+
+LDIFF_SYM407=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM407
+	.byte 1,99,11
+	.asciz "newIndexPath"
+
+LDIFF_SYM408=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM408
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM409=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM409
+Lfde31_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_CommitEditingStyle_UIKit_UITableView_UIKit_UITableViewCellEditingStyle_Foundation_NSIndexPath
+
+LDIFF_SYM410=Lme_1f - vues_tables_Ios_TableSource_CommitEditingStyle_UIKit_UITableView_UIKit_UITableViewCellEditingStyle_Foundation_NSIndexPath
+	.long LDIFF_SYM410
+	.long 0
+	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,154,24
+	.align 3
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:CanEditRow"
+	.asciz "vues_tables_Ios_TableSource_CanEditRow_UIKit_UITableView_Foundation_NSIndexPath"
+
+	.byte 7,139,1
+	.quad vues_tables_Ios_TableSource_CanEditRow_UIKit_UITableView_Foundation_NSIndexPath
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM411=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM411
+	.byte 2,141,24,3
+	.asciz "tableView"
+
+LDIFF_SYM412=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM412
+	.byte 2,141,32,3
+	.asciz "indexPath"
+
+LDIFF_SYM413=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM413
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM414=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM414
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM415=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM415
+Lfde32_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_CanEditRow_UIKit_UITableView_Foundation_NSIndexPath
+
+LDIFF_SYM416=Lme_20 - vues_tables_Ios_TableSource_CanEditRow_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM416
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde32_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:TitleForDeleteConfirmation"
+	.asciz "vues_tables_Ios_TableSource_TitleForDeleteConfirmation_UIKit_UITableView_Foundation_NSIndexPath"
+
+	.byte 7,146,1
+	.quad vues_tables_Ios_TableSource_TitleForDeleteConfirmation_UIKit_UITableView_Foundation_NSIndexPath
+	.quad Lme_21
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM417=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM417
+	.byte 1,104,3
+	.asciz "tableView"
+
+LDIFF_SYM418=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM418
+	.byte 2,141,56,3
+	.asciz "indexPath"
+
+LDIFF_SYM419=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM419
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM420=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM420
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM421=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM421
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM422=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM422
+Lfde33_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_TitleForDeleteConfirmation_UIKit_UITableView_Foundation_NSIndexPath
+
+LDIFF_SYM423=Lme_21 - vues_tables_Ios_TableSource_TitleForDeleteConfirmation_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM423
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,152,13,68,154,12
+	.align 3
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:EditingStyleForRow"
+	.asciz "vues_tables_Ios_TableSource_EditingStyleForRow_UIKit_UITableView_Foundation_NSIndexPath"
+
+	.byte 7,165,1
+	.quad vues_tables_Ios_TableSource_EditingStyleForRow_UIKit_UITableView_Foundation_NSIndexPath
+	.quad Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM424=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM424
+	.byte 2,141,40,3
+	.asciz "tableView"
+
+LDIFF_SYM425=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM425
+	.byte 2,141,48,3
+	.asciz "indexPath"
+
+LDIFF_SYM426=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM426
+	.byte 2,141,56,11
+	.asciz "V_0"
+
+LDIFF_SYM427=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM427
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM428=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM428
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM429=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM429
+	.byte 1,101,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM430=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM430
+Lfde34_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_EditingStyleForRow_UIKit_UITableView_Foundation_NSIndexPath
+
+LDIFF_SYM431=Lme_22 - vues_tables_Ios_TableSource_EditingStyleForRow_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM431
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10
+	.align 3
+Lfde34_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:CanMoveRow"
+	.asciz "vues_tables_Ios_TableSource_CanMoveRow_UIKit_UITableView_Foundation_NSIndexPath"
+
+	.byte 7,185,1
+	.quad vues_tables_Ios_TableSource_CanMoveRow_UIKit_UITableView_Foundation_NSIndexPath
+	.quad Lme_23
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM432=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM432
+	.byte 2,141,24,3
+	.asciz "tableView"
+
+LDIFF_SYM433=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM433
+	.byte 2,141,32,3
+	.asciz "indexPath"
+
+LDIFF_SYM434=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM434
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM435=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM435
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM436=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM436
+Lfde35_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_CanMoveRow_UIKit_UITableView_Foundation_NSIndexPath
+
+LDIFF_SYM437=Lme_23 - vues_tables_Ios_TableSource_CanMoveRow_UIKit_UITableView_Foundation_NSIndexPath
+	.long LDIFF_SYM437
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10
+	.align 3
+Lfde35_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:CustomizeMoveTarget"
+	.asciz "vues_tables_Ios_TableSource_CustomizeMoveTarget_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath"
+
+	.byte 7,196,1
+	.quad vues_tables_Ios_TableSource_CustomizeMoveTarget_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+	.quad Lme_24
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM438=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM438
+	.byte 2,141,48,3
+	.asciz "tableView"
+
+LDIFF_SYM439=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM439
+	.byte 2,141,56,3
+	.asciz "sourceIndexPath"
+
+LDIFF_SYM440=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM440
+	.byte 3,141,192,0,3
+	.asciz "proposedIndexPath"
+
+LDIFF_SYM441=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM441
+	.byte 1,106,11
+	.asciz "lastRealRow"
+
+LDIFF_SYM442=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM442
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM443=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM443
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM444=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM444
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM445=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM445
+Lfde36_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_CustomizeMoveTarget_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+
+LDIFF_SYM446=Lme_24 - vues_tables_Ios_TableSource_CustomizeMoveTarget_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+	.long LDIFF_SYM446
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,68,154,11
+	.align 3
+Lfde36_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:MoveRow"
+	.asciz "vues_tables_Ios_TableSource_MoveRow_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath"
+
+	.byte 7,217,1
+	.quad vues_tables_Ios_TableSource_MoveRow_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+	.quad Lme_25
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM447=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM447
+	.byte 1,104,3
+	.asciz "tableView"
+
+LDIFF_SYM448=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM448
+	.byte 2,141,40,3
+	.asciz "sourceIndexPath"
+
+LDIFF_SYM449=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM449
+	.byte 1,105,3
+	.asciz "destinationIndexPath"
+
+LDIFF_SYM450=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM450
+	.byte 2,141,48,11
+	.asciz "item"
+
+LDIFF_SYM451=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM451
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM452=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM452
+Lfde37_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_MoveRow_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+
+LDIFF_SYM453=Lme_25 - vues_tables_Ios_TableSource_MoveRow_UIKit_UITableView_Foundation_NSIndexPath_Foundation_NSIndexPath
+	.long LDIFF_SYM453
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,152,15,68,153,14
+	.align 3
+Lfde37_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:WillBeginTableEditing"
+	.asciz "vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView"
+
+	.byte 7,229,1
+	.quad vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView
+	.quad Lme_26
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM454=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM454
+	.byte 1,105,3
+	.asciz "tableView"
+
+LDIFF_SYM455=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM455
+	.byte 3,141,192,0,11
+	.asciz "indexPath"
+
+LDIFF_SYM456=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM456
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM457=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM457
+Lfde38_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView
+
+LDIFF_SYM458=Lme_26 - vues_tables_Ios_TableSource_WillBeginTableEditing_UIKit_UITableView
+	.long LDIFF_SYM458
+	.long 0
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,150,18,151,17,68,152,16,153,15
+	.align 3
+Lfde38_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.TableSource:DidFinishTableEditing"
+	.asciz "vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView"
+
+	.byte 7,254,1
+	.quad vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView
+	.quad Lme_27
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM459=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM459
+	.byte 1,105,3
+	.asciz "tableView"
+
+LDIFF_SYM460=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM460
+	.byte 2,141,56,11
+	.asciz "lastIndex"
+
+LDIFF_SYM461=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM461
+	.byte 1,104,11
+	.asciz "indexPath"
+
+LDIFF_SYM462=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM462
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM463=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM463
+	.byte 1,102,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM464=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM464
+Lfde39_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView
+
+LDIFF_SYM465=Lme_27 - vues_tables_Ios_TableSource_DidFinishTableEditing_UIKit_UITableView
+	.long LDIFF_SYM465
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.align 3
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7026,38 +10974,38 @@ Lfde30_end:
 	.asciz "vues_tables_Ios.ViewController:.ctor"
 	.asciz "vues_tables_Ios_ViewController__ctor_intptr"
 
-	.byte 8,60
+	.byte 8,56
 	.quad vues_tables_Ios_ViewController__ctor_intptr
-	.quad Lme_1f
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM305=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM466=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 2,141,16,3
 	.asciz "handle"
 
-LDIFF_SYM306=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM467=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM307=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM307
-Lfde31_start:
+LDIFF_SYM468=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM468
+Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_ViewController__ctor_intptr
 
-LDIFF_SYM308=Lme_1f - vues_tables_Ios_ViewController__ctor_intptr
-	.long LDIFF_SYM308
+LDIFF_SYM469=Lme_28 - vues_tables_Ios_ViewController__ctor_intptr
+	.long LDIFF_SYM469
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde31_end:
+Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7065,33 +11013,33 @@ Lfde31_end:
 	.asciz "vues_tables_Ios.ViewController:ViewDidLoad"
 	.asciz "vues_tables_Ios_ViewController_ViewDidLoad"
 
-	.byte 8,65
+	.byte 8,61
 	.quad vues_tables_Ios_ViewController_ViewDidLoad
-	.quad Lme_20
+	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM309=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM470=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM470
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM310=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM310
-Lfde32_start:
+LDIFF_SYM471=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM471
+Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_ViewController_ViewDidLoad
 
-LDIFF_SYM311=Lme_20 - vues_tables_Ios_ViewController_ViewDidLoad
-	.long LDIFF_SYM311
+LDIFF_SYM472=Lme_29 - vues_tables_Ios_ViewController_ViewDidLoad
+	.long LDIFF_SYM472
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
-Lfde32_end:
+Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7101,31 +11049,31 @@ Lfde32_end:
 
 	.byte 9,17
 	.quad vues_tables_Ios_ViewController_get_MyTableView
-	.quad Lme_21
+	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM312=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM312
+LDIFF_SYM473=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM473
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM313=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM313
-Lfde33_start:
+LDIFF_SYM474=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM474
+Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_ViewController_get_MyTableView
 
-LDIFF_SYM314=Lme_21 - vues_tables_Ios_ViewController_get_MyTableView
-	.long LDIFF_SYM314
+LDIFF_SYM475=Lme_2a - vues_tables_Ios_ViewController_get_MyTableView
+	.long LDIFF_SYM475
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde33_end:
+Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7135,36 +11083,36 @@ Lfde33_end:
 
 	.byte 9,17
 	.quad vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
-	.quad Lme_22
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM315=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM315
+LDIFF_SYM476=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM476
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM316=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM316
+LDIFF_SYM477=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM477
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM317=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM317
-Lfde34_start:
+LDIFF_SYM478=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM478
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
 
-LDIFF_SYM318=Lme_22 - vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
-	.long LDIFF_SYM318
+LDIFF_SYM479=Lme_2b - vues_tables_Ios_ViewController_set_MyTableView_UIKit_UITableView
+	.long LDIFF_SYM479
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde34_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7174,36 +11122,36 @@ Lfde34_end:
 
 	.byte 9,20
 	.quad vues_tables_Ios_ViewController_ReleaseDesignerOutlets
-	.quad Lme_23
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM319=LTDIE_31_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM480=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM480
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM320=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM481=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM481
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM321=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM321
-Lfde35_start:
+LDIFF_SYM482=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM482
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_ViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM322=Lme_23 - vues_tables_Ios_ViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM322
+LDIFF_SYM483=Lme_2c - vues_tables_Ios_ViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM483
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde35_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -7211,29 +11159,311 @@ Lfde35_end:
 	.asciz "vues_tables_Ios.ViewController:.cctor"
 	.asciz "vues_tables_Ios_ViewController__cctor"
 
-	.byte 8,15
+	.byte 8,5
 	.quad vues_tables_Ios_ViewController__cctor
-	.quad Lme_24
+	.quad Lme_2d
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM323=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM323
-Lfde36_start:
+LDIFF_SYM484=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM484
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad vues_tables_Ios_ViewController__cctor
 
-LDIFF_SYM324=Lme_24 - vues_tables_Ios_ViewController__cctor
-	.long LDIFF_SYM324
+LDIFF_SYM485=Lme_2d - vues_tables_Ios_ViewController__cctor
+	.long LDIFF_SYM485
 	.long 0
 	.byte 12,31,0,84,14,160,4,157,68,158,67,68,13,29,68,147,66,148,65,68,149,64,150,63,68,151,62,152,61,68,153,60
 	.byte 154,59
 	.align 3
-Lfde36_end:
+Lfde45_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_51:
+
+	.byte 5
+	.asciz "System_EventArgs"
+
+	.byte 16,16
+LDIFF_SYM486=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM486
+	.byte 2,35,0,0,7
+	.asciz "System_EventArgs"
+
+LDIFF_SYM487=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM487
+LTDIE_51_POINTER:
+
+	.byte 13
+LDIFF_SYM488=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM488
+LTDIE_51_REFERENCE:
+
+	.byte 14
+LDIFF_SYM489=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM489
+	.byte 2
+	.asciz "vues_tables_Ios.ViewController:<ViewDidLoad>b__5_0"
+	.asciz "vues_tables_Ios_ViewController__ViewDidLoadb__5_0_object_System_EventArgs"
+
+	.byte 8,78
+	.quad vues_tables_Ios_ViewController__ViewDidLoadb__5_0_object_System_EventArgs
+	.quad Lme_2e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM490=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM490
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM491=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM491
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM492=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM492
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM493=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM493
+Lfde46_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_ViewController__ViewDidLoadb__5_0_object_System_EventArgs
+
+LDIFF_SYM494=Lme_2e - vues_tables_Ios_ViewController__ViewDidLoadb__5_0_object_System_EventArgs
+	.long LDIFF_SYM494
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.align 3
+Lfde46_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "vues_tables_Ios.ViewController:<ViewDidLoad>b__5_1"
+	.asciz "vues_tables_Ios_ViewController__ViewDidLoadb__5_1_object_System_EventArgs"
+
+	.byte 8,97
+	.quad vues_tables_Ios_ViewController__ViewDidLoadb__5_1_object_System_EventArgs
+	.quad Lme_2f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM495=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM495
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM496=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM496
+	.byte 2,141,32,3
+	.asciz "e"
+
+LDIFF_SYM497=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM497
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM498=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM498
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM499=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM499
+Lfde47_start:
+
+	.long 0
+	.align 3
+	.quad vues_tables_Ios_ViewController__ViewDidLoadb__5_1_object_System_EventArgs
+
+LDIFF_SYM500=Lme_2f - vues_tables_Ios_ViewController__ViewDidLoadb__5_1_object_System_EventArgs
+	.long LDIFF_SYM500
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.align 3
+Lfde47_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_52:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 16,16
+LDIFF_SYM501=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM501
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM502=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM502
+LTDIE_52_POINTER:
+
+	.byte 13
+LDIFF_SYM503=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM503
+LTDIE_52_REFERENCE:
+
+	.byte 14
+LDIFF_SYM504=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM504
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<T_REF>:invoke_bool_T"
+	.asciz "wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+	.quad Lme_31
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM505=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM505
+	.byte 3,141,208,0,3
+	.asciz "param0"
+
+LDIFF_SYM506=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM506
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM507=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM507
+	.byte 1,105,11
+	.asciz "V_1"
+
+LDIFF_SYM508=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM508
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM509=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM509
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM510=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM510
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM511=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM511
+	.byte 1,101,11
+	.asciz "V_5"
+
+LDIFF_SYM512=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM512
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM513=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM513
+Lfde48_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+
+LDIFF_SYM514=Lme_31 - wrapper_delegate_invoke_System_Predicate_1_T_REF_invoke_bool_T_T_REF
+	.long LDIFF_SYM514
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
+	.byte 154,11
+	.align 3
+Lfde48_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<T_REF>:invoke_int_T_T"
+	.asciz "wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+	.quad Lme_32
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM515=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM515
+	.byte 3,141,208,0,3
+	.asciz "param0"
+
+LDIFF_SYM516=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM516
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM517=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM517
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM518=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM518
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM519=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM519
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM520=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM520
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM521=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM521
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM522=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM522
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM523=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM523
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM524=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM524
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+
+LDIFF_SYM525=Lme_32 - wrapper_delegate_invoke_System_Comparison_1_T_REF_invoke_int_T_T_T_REF_T_REF
+	.long LDIFF_SYM525
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12
+	.byte 154,11
+	.align 3
+Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 

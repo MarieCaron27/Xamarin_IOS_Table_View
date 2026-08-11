@@ -2,16 +2,6 @@
 
 public partial class ViewController : UIViewController
 {
-    /*static string[] tableItems =
-    {
-        "Vegetables",
-        "Fruits",
-        "Flower Buds",
-        "Legumes",
-        "Bulbs",
-        "Tubers"
-    };*/
-    
     static TableItem[] tableItems =
     {
         new TableItem
@@ -57,20 +47,77 @@ public partial class ViewController : UIViewController
         }
     };
 
-    public ViewController(IntPtr handle) : base(handle)
+    TableSource tableSource;
+
+    UIBarButtonItem editButton;
+    UIBarButtonItem doneButton;
+
+    public ViewController(IntPtr handle)
+        : base(handle)
     {
     }
 
     public override void ViewDidLoad()
     {
         base.ViewDidLoad();
-        
-        // La cellule doit être enregistrée AVANT DequeueReusableCell
-        MyTableView.RegisterClassForCellReuse(
-            typeof(MyCell),
-            MyCell.CellId);
 
-        MyTableView.Source = new TableSource(tableItems, this);
-        Add (MyTableView);
+        tableSource =
+            new TableSource(
+                tableItems,
+                this);
+
+        MyTableView.Source = tableSource;
+
+        /*
+         * Bouton Done
+         */
+        doneButton =
+            new UIBarButtonItem(
+                UIBarButtonSystemItem.Done,
+                (sender, e) =>
+                {
+                    MyTableView.SetEditing(
+                        false,
+                        true);
+
+                    tableSource.DidFinishTableEditing(
+                        MyTableView);
+
+                    NavigationItem.RightBarButtonItem =
+                        editButton;
+                });
+
+        /*
+         * Bouton Edit
+         */
+        editButton =
+            new UIBarButtonItem(
+                UIBarButtonSystemItem.Edit,
+                (sender, e) =>
+                {
+                    /*
+                     * Au cas où une ligne était déjà
+                     * partiellement ouverte par swipe.
+                     */
+                    if (MyTableView.Editing)
+                    {
+                        MyTableView.SetEditing(
+                            false,
+                            true);
+                    }
+
+                    tableSource.WillBeginTableEditing(
+                        MyTableView);
+
+                    MyTableView.SetEditing(
+                        true,
+                        true);
+
+                    NavigationItem.RightBarButtonItem =
+                        doneButton;
+                });
+
+        NavigationItem.RightBarButtonItem =
+            editButton;
     }
 }

@@ -16,10 +16,12 @@ static void xamarin_invoke_registration_methods ()
 extern void *mono_aot_module_aot_instances_info;
 extern void *mono_aot_module_vues_tables_Ios_info;
 extern void *mono_aot_module_System_Collections_Concurrent_info;
+extern void *mono_aot_module_System_Collections_info;
 extern void *mono_aot_module_System_ComponentModel_TypeConverter_info;
 extern void *mono_aot_module_System_Diagnostics_DiagnosticSource_info;
 extern void *mono_aot_module_System_Drawing_Primitives_info;
 extern void *mono_aot_module_System_Drawing_info;
+extern void *mono_aot_module_System_Linq_info;
 extern void *mono_aot_module_System_ObjectModel_info;
 extern void *mono_aot_module_System_Runtime_InteropServices_info;
 extern void *mono_aot_module_System_Runtime_info;
@@ -31,10 +33,12 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_aot_instances_info);
 	mono_aot_register_module (mono_aot_module_vues_tables_Ios_info);
 	mono_aot_register_module (mono_aot_module_System_Collections_Concurrent_info);
+	mono_aot_register_module (mono_aot_module_System_Collections_info);
 	mono_aot_register_module (mono_aot_module_System_ComponentModel_TypeConverter_info);
 	mono_aot_register_module (mono_aot_module_System_Diagnostics_DiagnosticSource_info);
 	mono_aot_register_module (mono_aot_module_System_Drawing_Primitives_info);
 	mono_aot_register_module (mono_aot_module_System_Drawing_info);
+	mono_aot_register_module (mono_aot_module_System_Linq_info);
 	mono_aot_register_module (mono_aot_module_System_ObjectModel_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_InteropServices_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_info);

@@ -1,5 +1,64 @@
 namespace vues_tables_Ios;
 
+public class TableSource : UITableViewSource
+{
+    readonly TableItem[] TableItems;
+    readonly ViewController owner;
+
+    public TableSource(
+        TableItem[] items,
+        ViewController owner)
+    {
+        TableItems = items;
+        this.owner = owner;
+    }
+
+    public override nint RowsInSection(
+        UITableView tableView,
+        nint section)
+    {
+        return TableItems.Length;
+    }
+
+    public override UITableViewCell GetCell (UITableView tableView, NSIndexPath indexPath)
+    {
+        var cell = tableView.DequeueReusableCell (MyCell.CellId) as CustomVegeCell;
+        if (cell == null)
+            cell = new CustomVegeCell (MyCell.CellId);
+        cell.UpdateCell (TableItems[indexPath.Row].Heading
+            , TableItems[indexPath.Row].SubHeading
+            , UIImage.FromFile (TableItems[indexPath.Row].ImageName) );
+        return cell;
+    }
+
+    public override void RowSelected(
+        UITableView tableView,
+        NSIndexPath indexPath)
+    {
+        var item = TableItems[indexPath.Row];
+
+        var alert = UIAlertController.Create(
+            "Row Selected",
+            item.Heading,
+            UIAlertControllerStyle.Alert);
+
+        alert.AddAction(
+            UIAlertAction.Create(
+                "OK",
+                UIAlertActionStyle.Default,
+                null));
+
+        owner.PresentViewController(
+            alert,
+            true,
+            null);
+
+        tableView.DeselectRow(
+            indexPath,
+            true);
+    }
+}
+
 /*public class TableSource : UITableViewSource
 {
     readonly string[] TableItems;
@@ -26,6 +85,7 @@ namespace vues_tables_Ios;
             MyCell.CellId,
             indexPath);
 
+        
         cell.TextLabel.Text = TableItems[indexPath.Row];
 
         return cell;
@@ -50,7 +110,7 @@ namespace vues_tables_Ios;
 
         tableView.DeselectRow(indexPath, true);
     }
-}*/
+}
 
 public class TableSource : UITableViewSource
 {
@@ -150,4 +210,4 @@ public class TableSource : UITableViewSource
     {
         return indexedTableItems[keys[section]].Count + " items";
     }
-}
+}*/

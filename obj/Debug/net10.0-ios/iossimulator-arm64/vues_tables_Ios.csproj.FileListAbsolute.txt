@@ -226,6 +226,7 @@
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/Debug/net10.0-ios/iossimulator-arm64/vues_tables_Ios.AssemblyInfoInputs.cache
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/Debug/net10.0-ios/iossimulator-arm64/vues_tables_Ios.AssemblyInfo.cs
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/Debug/net10.0-ios/iossimulator-arm64/vues_tables_Ios.csproj.CoreCompileInputs.cache
+/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/Debug/net10.0-ios/iossimulator-arm64/vues_tables_Ios.sourcelink.json
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/Debug/net10.0-ios/iossimulator-arm64/vues_tab.D1A2ADF7.Up2Date
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/Debug/net10.0-ios/iossimulator-arm64/vues_tables_Ios.dll
 /Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/Debug/net10.0-ios/iossimulator-arm64/refint/vues_tables_Ios.dll

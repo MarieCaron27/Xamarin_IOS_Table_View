@@ -447,7 +447,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 195,9,0,193,83,37,122,41,36,84,94,107,193,41,225,79
+	.byte 142,195,60,73,25,48,46,48,151,74,241,108,173,7,127,243
 	.globl _mono_aot_module_System_ObjectModel_info
 	.align 3
 _mono_aot_module_System_ObjectModel_info:

@@ -2896,7 +2896,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 3,236,87,4,111,8,151,106,170,15,213,195,136,33,254,214
+	.byte 198,205,195,81,168,111,89,69,195,216,182,208,44,187,175,76
 	.globl _mono_aot_module_System_ComponentModel_TypeConverter_info
 	.align 3
 _mono_aot_module_System_ComponentModel_TypeConverter_info:

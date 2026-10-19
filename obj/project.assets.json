@@ -81,11 +81,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/vues_tables_Ios.csproj",
+      "projectUniqueName": "/Users/marie/Desktop/Xamarin_IOS_Table_View/vues_tables_Ios.csproj",
       "projectName": "vues_tables_Ios",
-      "projectPath": "/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/vues_tables_Ios.csproj",
+      "projectPath": "/Users/marie/Desktop/Xamarin_IOS_Table_View/vues_tables_Ios.csproj",
       "packagesPath": "/Users/marie/.nuget/packages/",
-      "outputPath": "/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/obj/",
+      "outputPath": "/Users/marie/Desktop/Xamarin_IOS_Table_View/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/marie/.nuget/NuGet/NuGet.Config"

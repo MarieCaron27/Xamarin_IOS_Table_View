@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7i8nbVJ6Cuo=",
+  "dgSpecHash": "Gm5tAD9Wovc=",
   "success": true,
-  "projectFilePath": "/Users/marie/RiderProjects/vues_tables_Ios/vues_tables_Ios/vues_tables_Ios.csproj",
+  "projectFilePath": "/Users/marie/Desktop/Xamarin_IOS_Table_View/vues_tables_Ios.csproj",
   "expectedPackageFiles": [
     "/Users/marie/.nuget/packages/microsoft.net.illink.tasks/10.0.3/microsoft.net.illink.tasks.10.0.3.nupkg.sha512",
     "/Users/marie/.nuget/packages/microsoft.netcore.app.ref/10.0.10/microsoft.netcore.app.ref.10.0.10.nupkg.sha512"
